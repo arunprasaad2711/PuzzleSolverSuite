@@ -21,8 +21,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/")
-def root():
+@app.get(path="/")
+async def health_check():
     return {"message": "OmniSolver API is running!"}
 
 @app.post("/solve")
