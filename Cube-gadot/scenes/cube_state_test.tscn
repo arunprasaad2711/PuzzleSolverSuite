@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4atehqutnwvw"]
+
+[ext_resource type="Script" uid="uid://k8hbk7fh5ih0" path="res://tests/cube_state_test.gd" id="1_yp6e1"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_yp6e1")

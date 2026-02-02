@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://ffyulxuq0j3"]
+
+[ext_resource type="Script" uid="uid://bygcjv4obj55q" path="res://visual/cube_visual.gd" id="1_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://d4atehqutnwvw" path="res://scenes/cube_state_test.tscn" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://b8n6bctgx8prk" path="res://visual/main.gd" id="1_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://uc624trtt15w" path="res://visual/cubelet.tscn" id="3_tbgi4"]
+[ext_resource type="Script" uid="uid://upy6cpvln1ks" path="res://tests/move_parser_test.gd" id="5_tbgi4"]
+[ext_resource type="Script" uid="uid://ba04v6f1aud3k" path="res://core/rotation_engine.gd" id="6_tefeu"]
+
+[sub_resource type="Environment" id="Environment_sgp6g"]
+background_mode = 1
+background_color = Color(0.11764706, 0.11764706, 0.11764706, 1)
+ambient_light_source = 3
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_sky_contribution = 0.0
+ambient_light_energy = 0.45
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_tbgi4")
+
+[node name="CameraRig" type="Node3D" parent="."]
+transform = Transform3D(0.70710677, -0.35355338, 0.6123724, 0, 0.8660254, 0.5, -0.70710677, -0.35355338, 0.6123724, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8)
+current = true
+fov = 45.0
+near = 0.1
+far = 100.0
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.70710677, -0.49999997, 0.49999997, 0, 0.70710677, 0.70710677, -0.70710677, -0.49999997, 0.49999997, 0, 0, 0)
+light_energy = 1.2
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_sgp6g")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Dashboard" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CubeRoot" type="Node3D" parent="."]
+script = ExtResource("1_jyhfs")
+cubelet_scene = ExtResource("3_tbgi4")
+
+[node name="TestNode" parent="." instance=ExtResource("1_o5qli")]
+script = ExtResource("5_tbgi4")
+
+[node name="RotationEngine" type="Node" parent="."]
+script = ExtResource("6_tefeu")
