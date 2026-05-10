@@ -1,31 +1,33 @@
 import requests
+import json
+import os
+
+def print_matrix(matrix):
+    for row in matrix:
+        print(" ".join(str(cell) for cell in row))
+    print()
 
 url = "http://127.0.0.1:5500/solve"
+PAYLOADS_DIR = "./../TestJSONs/OmniSolver"
+FName = "Toothbrushes_IrregularSudokuWithArrowSums.json"
+# FName = "Dummy.json"
 
-payload = {
-    "Matrix": [ [0, 0, 0, 0, 0, 0, 0, 0, 0],
-                [0, 0, 0, 0, 0, 0, 0, 0, 0],
-                [0, 0, 0, 0, 0, 0, 0, 0, 0],
-                [0, 0, 0, 0, 0, 0, 0, 0, 0],
-                [0, 0, 1, 0, 0, 0, 0, 0, 0],
-                [0, 0, 0, 0, 0, 0, 2, 0, 0],
-                [0, 0, 0, 0, 0, 0, 0, 0, 0],
-                [0, 0, 0, 0, 0, 0, 0, 0, 0],
-                [0, 0, 0, 0, 0, 0, 0, 0, 0] ],
-    "AntiKnight": True,
-    "AntiKing": True,
-    "OrthogonalNonConsec": True
-}
+FilePath = os.path.join(PAYLOADS_DIR, FName)
+with open(FilePath, 'r') as f:
+    payload = json.load(f)
 
 try:
     resp = requests.post(url, json=payload)
     print(f"Status Code: {resp.status_code}")
+    result = resp.json()
     
-    if resp.text:  # Only try to parse JSON if there's content
-        print("JSON Response:")
-        print(resp.json())
+    if result['success']:
+        if "solutions" in result:
+            for solution in result["solutions"]:
+                print_matrix(solution)
     else:
-        print("Empty response!")
+        print(result)
+        print("Something went wrong!")
         
 except requests.exceptions.ConnectionError:
     print("Connection failed! Is the server running?")
