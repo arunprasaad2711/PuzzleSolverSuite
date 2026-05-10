@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from SolverManager import *
 from InputJSONClass import *
+import os
 
 '''
 To install, use uvicorn
@@ -9,19 +10,18 @@ To run this,
 uvicorn main:app --host 127.0.0.1 --port 5500
 '''
 
+ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
+
+if ENVIRONMENT == "production":
+    origins = ["https://arunprasaad2711.github.io"]
+else:
+    origins = ["http://127.0.0.1:5500", "http://localhost:5500"]
+
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        # Enable this for production
-        # "https://arunprasaad2711.github.io",
-        # Enable this for local testing
-        "http://127.0.0.1:5500", 
-        "http://localhost:5500",
-        "http://127.0.0.1:8000",  # Add this if needed
-        "http://localhost:8000"   # Add this if needed
-    ],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
