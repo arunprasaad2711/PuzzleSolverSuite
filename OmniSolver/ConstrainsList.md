@@ -1,12 +1,17 @@
+## Migrated
 Row-uniqueness
 Column-uniqueness
 Latin Squares (Row and Column uniqueness)
 Subgrid uniqueness
 Classic Sudoku (Latin Square + Subgrid)
-Irregular Subgrid Uniqueness
 Anti-knight
 Anti-king
+Diagonal minimum difference
+Irregular Subgrid Uniqueness
 Arrow Sum
+
+## Yet To Migrate
+
 Arrow Average
 Two-digit Arrow Sum (Need to check if this is working)
 Odd-Even constraint (some cells can be only odd or even)
@@ -34,7 +39,6 @@ Nabner Lines
 Palindrome Lines
 3x3 Magic Square
 Orthogonal minimum difference
-Diagonal minimum difference
 Orthogonal non-consecutive  (whole grid)
 Diagonal non-consecutive (whole grid)
 Orthogonal non-consecutive (some cells)

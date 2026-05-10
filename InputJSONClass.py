@@ -12,6 +12,7 @@ class Omni(BaseModel):
     
     # Puzzle Booleans
     Sudoku: bool = True
+    IrregularSudoku: bool = False
     
     # Chess Constraints
     AntiKnight: bool = False
@@ -19,7 +20,21 @@ class Omni(BaseModel):
     
     # Non-consecutive Constraints:
     OrthogonalNonConsec: bool = False
-    DiagonalNonConse: bool = False
+    DiagonalNonConsec: bool = False
+
+    # Minimum Difference
+    OrthogonalMinDifference: bool = False
+    DiagonalMinDifference: bool = False
+    OrthogonalMinDifferenceValue: int = 2
+    DiagonalMinDifferenceValue: int = 2
+
+    # Irregular Sudoku Region
+    IrregularSudokuRegionMap: List[List[int]] = Field(default_factory=list)
+
+    # Arrow Sudoku
+    ArrowSumSudoku: bool = False
+    ArrowSumSudokuCircles: List[List[int]] = Field(default_factory=list)
+    ArrowSumSudokuBodies: List[List[List[int]]] = Field(default_factory=list)
 
 class Chess(BaseModel):
     

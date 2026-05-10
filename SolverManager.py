@@ -12,6 +12,11 @@ def OmniSolverManager(puzzle: Omni):
     
     if puzzle.Sudoku:
         Solver.ClassicSudokuConstraints()
+    
+    if puzzle.IrregularSudoku:
+        Solver.SudokuRowConstraints()
+        Solver.SudokuColConstraints()
+        Solver.SudokuCustomGridConstraints(puzzle.IrregularSudokuRegionMap)
         
     if puzzle.AntiKing:
         Solver.AntiKingConstraints()
@@ -21,6 +26,19 @@ def OmniSolverManager(puzzle: Omni):
     
     if puzzle.OrthogonalNonConsec:
         Solver.OrthogonalNonConsecConstraints()
+    
+    if puzzle.DiagonalNonConsec:
+        Solver.DiagonalNonConsecConstraints()
+    
+    if puzzle.OrthogonalMinDifference:
+        Solver.OrthogonalMinDifferenceConstraints(puzzle.OrthogonalMinDifferenceValue)
+    
+    if puzzle.DiagonalMinDifference:
+        Solver.DiagonalMinDifferenceConstraints(puzzle.DiagonalMinDifferenceValue)
+    
+    if puzzle.ArrowSumSudoku:
+        Solver.ArrowSum(puzzle.ArrowSumSudokuCircles,
+                        puzzle.ArrowSumSudokuBodies)
         
     # Solutions = Solver.MultiSolutionSolve()
     Solutions = Solver.Solve()
