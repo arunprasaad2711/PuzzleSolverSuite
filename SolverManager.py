@@ -17,6 +17,7 @@ def OmniSolverManager(puzzle: Omni):
         Solver.SudokuRowConstraints()
         Solver.SudokuColConstraints()
         Solver.SudokuCustomGridConstraints(puzzle.IrregularSudokuRegionMap)
+        Solver.InitializeGivenEntries()
         
     if puzzle.AntiKing:
         Solver.AntiKingConstraints()

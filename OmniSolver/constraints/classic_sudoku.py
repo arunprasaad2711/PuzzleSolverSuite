@@ -100,7 +100,7 @@ def SudokuCustomGridConstraints(self, SubGridMap):
     0 is used to mark free cells - cells that do not belong to any subgrid/region
     '''
 
-    SubGridMap = np.array(SubGridMap)
+    SubGridMap = np.array(SubGridMap, dtype=np.int32)
     
     # First, find all the unique entries in the SubGridMap
     UIDs = set()
