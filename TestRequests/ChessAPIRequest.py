@@ -1,6 +1,6 @@
 import requests
 
-url = "http://127.0.0.1:8000/nqueens"
+url = "http://127.0.0.1:5500/nqueens"
 
 payload = {
     "Order": 8,
