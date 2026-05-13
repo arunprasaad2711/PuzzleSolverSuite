@@ -10,5 +10,10 @@
               [0, 0, 0, 0, 0, 0, 0, 0, 0]],
     "AntiKnight": true,
     "DiagonalMinDifference": true,
-    "DiagonalMinDifferenceValue": 2
+    "DiagonalMinDifferenceValue": 2,
+    "url":" https://www.youtube.com/watch?v=eAZ4qpW9yjs",
+    "title":"89",
+    "author":"James Kopp",
+    "PuzzleTestStatus":"Verified"
+
 }

@@ -1,4 +1,7 @@
 {
+    "url": "https://www.youtube.com/watch?v=yKf9aUIxdb4",
+    "name": "The Miracle",
+    "author": "Mitchell Lee",
     "Matrix": [
         [0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -12,5 +15,6 @@
     ],
     "AntiKnight": true,
     "AntiKing": true,
-    "OrthogonalNonConsec": true
+    "OrthogonalNonConsec": true,
+    "PuzzleTestStatus":"Verified"
 }

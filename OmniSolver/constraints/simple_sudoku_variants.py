@@ -18,6 +18,8 @@ def ArgyleConstraints(self):
     for line in ArgyleLines:
         Cells = [self.Cells[i][j] for i, j in line]
         self.Model.AddAllDifferent(Cells)
+    
+    print("Argyle Sudoku constraints added")
 
 def GirandolaConstraints(self):
     '''
@@ -30,6 +32,9 @@ def GirandolaConstraints(self):
     Cells = [self.Cells[i][j] for i, j in GirandolaIDs]
     self.Model.AddAllDifferent(Cells)
 
+    print("Girandola Sudoku constraints added")
+
+
 def CentreDotConstraints(self):
     '''
     Centre Dot Constraints. The given 9 cells must also contain numbers 1-9
@@ -41,6 +46,9 @@ def CentreDotConstraints(self):
     Cells = [self.Cells[i][j] for i, j in CentreDotIDs]
     self.Model.AddAllDifferent(Cells)
 
+    print("Centre Dot Sudoku constraints added")
+
+
 def AsteriskConstraints(self):
     '''
     Asterisk Constraints. The given 9 cells must also contain numbers 1-9
@@ -51,3 +59,5 @@ def AsteriskConstraints(self):
     
     Cells = [self.Cells[i][j] for i, j in AsteriskIDs]
     self.Model.AddAllDifferent(Cells)
+
+    print("Asterisk Sudoku constraints added")

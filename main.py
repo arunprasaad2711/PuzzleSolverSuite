@@ -34,7 +34,7 @@ async def health_check():
 @app.post("/solve")
 def solve_puzzle(puzzle: Omni):
     
-    print(f"Attempting to use OmniSolver with data {puzzle}")
+    # print(f"Attempting to use OmniSolver with data {puzzle}")
     
     try:
         Solutions = OmniSolverManager(puzzle)

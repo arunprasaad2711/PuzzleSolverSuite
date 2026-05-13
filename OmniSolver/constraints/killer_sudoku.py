@@ -1,4 +1,5 @@
 from itertools import combinations
+import numpy as np
 
 def KillerSudokuConstraints(self, KillerCageSums, KillerCageMap):
     """
@@ -15,6 +16,9 @@ def KillerSudokuConstraints(self, KillerCageSums, KillerCageMap):
         KillerCageSums (list): List/Array of the sums of the corresponding killer cages
         KillerCageMap (array): A 2D map of all the cells belonging to a killer cage marked by unique numbers.
     """
+
+    KillerCageSums = np.array(KillerCageSums)
+    KillerCageMap = np.array(KillerCageMap)
     
     # First, find all the unique entries in the Killer Cage Map
     UIDs = set()
@@ -59,6 +63,9 @@ def LittleKillerSudokuConstraints(self, KillerCageSums, KillerCageMap):
         KillerCageSums (list): List/Array of the sums of the corresponding little killer cages
         KillerCageMap (array): A 2D map of all the cells belonging to a little killer cage marked by unique numbers.
     """
+
+    KillerCageSums = np.array(KillerCageSums)
+    KillerCageMap = np.array(KillerCageMap)
     
     # First, find all the unique entries in the Killer Cage Map
     UIDs = set()

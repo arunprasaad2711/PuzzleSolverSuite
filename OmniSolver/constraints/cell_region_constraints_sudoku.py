@@ -1,3 +1,5 @@
+import numpy as np
+
 def OddEvenConstraints(self, OddEvenMap):
     
     '''
@@ -5,6 +7,8 @@ def OddEvenConstraints(self, OddEvenMap):
     0 - any, 1 - odd, 2 - even
     '''
     
+    OddEvenMap = np.array(OddEvenMap)
+
     for i in range(self.Rows):
         for j in range(self.Cols):
             parity = OddEvenMap[i, j]

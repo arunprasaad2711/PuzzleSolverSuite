@@ -10,7 +10,8 @@ class OmniPuzzleSolver:
     
     def __init__(self, Data: Omni, SolversDirectory="./OmniSolver/constraints"):
         
-        print(f"Initializing OmniPuzzleSolver with data {Data}")
+        # print(f"Initializing OmniPuzzleSolver with data {Data}")
+        print(f"Initializing OmniPuzzleSolver Data")
         
         # Sudoku Puzzle Variables
         self.OrderRow = Data.OrderRow
