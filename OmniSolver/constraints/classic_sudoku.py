@@ -84,7 +84,7 @@ def SudokuSubGridConstraints(self):
                         for i in range(self.OrderRow) for j in range(self.OrderCol) ]
             self.Model.AddAllDifferent(subgrid)
     
-    self.SubgridMap = self.GenerateClassicSubgridMap()
+    self.SubGridMap = self.GenerateClassicSubgridMap()
     
     print("SubGrid constraints added.")
 
@@ -120,7 +120,7 @@ def SudokuCustomGridConstraints(self, SubGridMap):
         self.Model.AddAllDifferent(subgrid)
         print(f"Custom Subgrid with UID {entry} added.")
     
-    self.SubgridMap = SubGridMap
+    self.SubGridMap = SubGridMap
     
     print("Custom SubGrid constraints added.")
 

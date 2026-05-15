@@ -26,11 +26,13 @@ Argyle
 Girandola
 Centre dot
 Asterisk
+Multi AntiSums With Pair Exceptions
+Multi AntiRations With Pair Exceptions
+Odd-Even constraint (some cells can be only odd or even)
 
 ## Yet To Migrate
 Arrow Average
 Two-digit Arrow Sum (Need to check if this is working)
-Odd-Even constraint (some cells can be only odd or even)
 Orthogonal neighbouring sums (cell is the sum of orthogonal neighbours)
 RestrictedCells (cells can take only specific given values)
 Clones
@@ -42,8 +44,6 @@ Kakurasu row constraints
 Kakurasu column constraints
 Classic Kakurasu (Row + Column)
 Killer cages with unknown sums
-Kropki with ratios
-Kropki with anti-sums
 Line Differences
 Renban Lines
 Warping Renban Lines

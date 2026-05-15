@@ -85,11 +85,26 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.QuadsCondition:
         Solver.QuadsConstraints(puzzle.QuadIDs, puzzle.QuadVals)
     
+    if puzzle.MultiAntiSumsCondition:
+        for AntiSum, PairsExceptions in zip(puzzle.MultiAntiSums, puzzle.MultiAntiSumsPairsList):
+            Solver.OrthogonalAntiSumConstraints(AntiSum, PairsExceptions)
+    
+    if puzzle.MultiAntiRatiosCondition:
+        for numerator, denominator, PairsExceptions in zip(puzzle.MultiAntiRatiosNumerators, 
+                                                            puzzle.MultiAntiRatiosDenominators, 
+                                                            puzzle.MultiAntiRatiosPairsList):
+            Solver.OrthogonalAntiRatioConstraints(numerator, denominator, PairsExceptions)
+    
     if puzzle.AdditionPairsCondition:
         Solver.AdditionPairs(puzzle.AdditionPairsSums, puzzle.AdditionPairs)
+            
+    # with open("output.txt", "w") as f:
+    #     # print(Solver.Model, file=f)
+    #     for constraint in Solver.Model.Proto().constraints:
+    #         print(constraint, file=f)
         
-    # Solutions = Solver.MultiSolutionSolve()
-    Solutions = Solver.Solve()
+    Solutions = Solver.MultiSolutionSolve()
+    # Solutions = Solver.Solve()
     
     return Solutions
 

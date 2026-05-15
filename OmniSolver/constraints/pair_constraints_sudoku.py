@@ -173,3 +173,37 @@ def RatioPairsOrDifferencePairs(self, numerators, denominators, differences, pai
 
         # At least one of the conditions must hold
         self.Model.AddBoolOr([condition1, condition2, condition3, condition4])
+
+def GetAllOrthogonalPairs(self):
+    pairs = []
+    for i in range(self.Rows):
+        for j in range(self.Cols):
+            if j + 1 < self.Cols:
+                pairs.append(([i, j], [i, j + 1]))
+            if i + 1 < self.Rows:
+                pairs.append(([i, j], [i + 1, j]))
+    return pairs
+
+def OrthogonalAntiSumConstraints(self, AntiSum, PairExceptions=None):
+    pairs = self.GetAllOrthogonalPairs()
+    
+    if PairExceptions is not None:
+        pairs = [p for p in pairs if list(p) not in [list(e) for e in PairExceptions]]
+
+    for pair1, pair2 in pairs:
+        print(f"Adding Orthogonal AntiSum constraint for sum = {AntiSum} for {pair1} - {pair2}")
+        self.Model.Add(self.Cells[pair1[0]][pair1[1]] + self.Cells[pair2[0]][pair2[1]] != AntiSum)
+
+    print(f"Orthogonal Anti-Sum condition of {AntiSum} constraints added.")
+
+def OrthogonalAntiRatioConstraints(self, numerator, denominator, PairExceptions=None):
+    pairs = self.GetAllOrthogonalPairs()
+
+    if PairExceptions is not None:
+        pairs = [p for p in pairs if list(p) not in [list(e) for e in PairExceptions]]
+
+    for pair1, pair2 in pairs:
+        self.Model.Add(self.Cells[pair1[0]][pair1[1]] != numerator * self.Cells[pair2[0]][pair2[1]])
+        self.Model.Add(self.Cells[pair2[0]][pair2[1]] != denominator * self.Cells[pair1[0]][pair1[1]])
+
+    print(f"Orthogonal Anti-Ratio condition of {numerator}:{denominator} ratio constraints added.")

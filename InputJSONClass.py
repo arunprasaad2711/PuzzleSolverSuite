@@ -85,6 +85,15 @@ class Omni(BaseModel):
     AdditionPairs: List[List[List[int]]] = Field(default_factory=list)
     AdditionPairsSums: List[int] = Field(default_factory=list)
 
+    # Multi Anti Sum Constraints
+    MultiAntiSumsCondition: bool = False
+    MultiAntiSums: List[int] = Field(default_factory=list)
+    MultiAntiSumsPairsList: List[List[List[List[int]]]] = Field(default_factory=list)
+
+    # Unique Entity Condition
+    ExtendedSudokuConstraints: bool = False
+    ExtendedSudokuAllowedRepeats: int = 1
+
 class Chess(BaseModel):
     
     Order: int = 8
