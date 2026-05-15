@@ -9,6 +9,15 @@ class Omni(BaseModel):
     Matrix: List[List[int]] = Field(default_factory=list)
     LowerBound: int = 1
     UpperBound: int = 9
+    ZeroMaskingDigit: int = -1
+
+    # Sum of Elements in Rows, Colums, Subgrids
+    RowSumCondition: bool = False
+    ColSumCondition: bool = False
+    SubGridSumCondition: bool = False
+    RowSums: Optional[list] = Field(default_factory=list)
+    ColSums: Optional[list] = Field(default_factory=list)
+    SubGridSums: Optional[list] = Field(default_factory=list)
     
     # Puzzle Booleans
     Sudoku: bool = True
@@ -104,8 +113,7 @@ class Omni(BaseModel):
     SandWichHighNumber: int = 9
 
     # Unique Entity Condition
-    ExtendedSudokuConstraints: bool = False
-    ExtendedSudokuAllowedRepeats: int = 1
+    ExtendedSudokuCondition: bool = False
 
 class Chess(BaseModel):
     

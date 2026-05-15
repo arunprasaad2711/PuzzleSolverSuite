@@ -28,6 +28,24 @@ def SudokuRowConstraints(self):
         self.Model.AddAllDifferent(RowCollection)
     
     print("Row constraints added.")
+
+def RowSumConstraints(self, RowSums):
+
+    '''
+    Sum of the row must be equal to some number
+
+    eg: https://www.youtube.com/watch?v=6tYM2ClmjVo
+    '''
+    # Add Row Constraints
+    for i, RowSum in zip(range(self.Rows), RowSums):
+        RowCollection = []
+        
+        for j in range(self.Cols):
+            RowCollection.append(self.Cells[i][j])
+        
+        self.Model.Add(sum(RowCollection) == RowSum)
+    
+    print("RowSum Constraints Added.")
     
 def SudokuColConstraints(self):
     
@@ -45,6 +63,26 @@ def SudokuColConstraints(self):
         self.Model.AddAllDifferent(ColCollection)
     
     print("Column constraints added.")
+
+def ColSumConstraints(self, ColSums):
+    
+    '''
+    Sum of the column must be equal to some number
+
+    eg: https://www.youtube.com/watch?v=6tYM2ClmjVo
+    '''
+    
+    # Add Column Constraints
+    for i, ColSum in zip(range(self.Rows), ColSums):
+        ColCollection = []
+        
+        for j in range(self.Cols):    
+            ColCollection.append(self.Cells[j][i])
+        
+        self.Model.Add(sum(ColCollection) == ColSum)
+    
+    print("ColSum constraints added.")
+
 
 def LatinSquares(self):
     
@@ -88,6 +126,25 @@ def SudokuSubGridConstraints(self):
     
     print("SubGrid constraints added.")
 
+def SubGridSumConstraints(self, SubGridSums):
+    
+    '''
+    Sum of the subgrid must be equal to some number
+
+    eg: https://www.youtube.com/watch?v=6tYM2ClmjVo
+    '''
+    
+    # Add SubGrid Constraints
+    K = 0
+    for I in range(self.OrderCol):
+        for J in range(self.OrderRow):
+            subgrid = [ self.Cells[I * self.OrderRow + i][J * self.OrderCol + j] 
+                        for i in range(self.OrderRow) for j in range(self.OrderCol) ]
+            self.Model.Add(sum(subgrid) == SubGridSums[K])
+            K += 1
+    
+    print("SubGridSum Constraints Added.")
+
 def SudokuCustomGridConstraints(self, SubGridMap):
     
     '''
@@ -125,12 +182,15 @@ def SudokuCustomGridConstraints(self, SubGridMap):
     print("Custom SubGrid constraints added.")
 
 def InitializeGivenEntries(self):
-        
+
     '''
     Initial Value Constraints: Add the givens into the sudoku.
     '''
-    # Add the Sudoku Problem Givens
+
     for i in range(self.Rows):
         for j in range(self.Cols):
             if self.InputMatrix[i, j] != 0:
-                self.Model.Add(self.Cells[i][j] == self.InputMatrix[i, j])
+                if self.InputMatrix[i, j] == self.ZeroMaskingDigit:
+                    self.Model.Add(self.Cells[i][j] == 0)
+                else:
+                    self.Model.Add(self.Cells[i][j] == self.InputMatrix[i, j])

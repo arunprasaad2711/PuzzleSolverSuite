@@ -16,6 +16,10 @@ class OmniPuzzleSolver:
         # Sudoku Puzzle Variables
         self.OrderRow = Data.OrderRow
         self.OrderCol = Data.OrderCol
+
+        # A variable to assign cell values zero and not
+        # treat zero as a blank unassigned entry
+        self.ZeroMaskingDigit = Data.ZeroMaskingDigit
         
         # Input Matrix
         self.InputMatrix = np.array(Data.Matrix, dtype=np.int32)

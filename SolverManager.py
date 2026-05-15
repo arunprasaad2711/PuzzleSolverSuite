@@ -63,6 +63,15 @@ def OmniSolverManager(puzzle: Omni):
         Solver.KillerSudokuConstraints(puzzle.KillerCageSums,
                                        puzzle.KillerCageMap)
     
+    if puzzle.RowSumCondition:
+        Solver.RowSumConstraints(puzzle.RowSums)
+    
+    if puzzle.ColSumCondition:
+        Solver.ColSumConstraints(puzzle.ColSums)
+    
+    if puzzle.SubGridSumCondition:
+        Solver.SubGridSumConstraints(puzzle.SubGridSums)
+    
     if puzzle.LittleKillerCage:
         Solver.LittleKillerSudokuConstraints(puzzle.LittleKillerCageSums,
                                        puzzle.LittleKillerCageMap)
@@ -101,6 +110,11 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.SandWichSudoku:
         Solver.SandWichConstraints(puzzle.SandWichRowSums, puzzle.SandWichColSums,
                                    puzzle.SandWichLowNumber, puzzle.SandWichHighNumber)
+    
+    if puzzle.ExtendedSudokuCondition:
+        Solver.ExtendedSudokuRowConstraint()
+        Solver.ExtendedSudokuColConstraint()
+        Solver.ExtendedSudokuSubGridConstraint()
             
     # with open("output.txt", "w") as f:
     #     # print(Solver.Model, file=f)
