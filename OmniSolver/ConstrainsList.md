@@ -27,8 +27,9 @@ Girandola
 Centre dot
 Asterisk
 Multi AntiSums With Pair Exceptions
-Multi AntiRations With Pair Exceptions
+Multi AntiRatios With Pair Exceptions
 Odd-Even constraint (some cells can be only odd or even)
+Sandwich sudoku
 
 ## Yet To Migrate
 Arrow Average
@@ -65,7 +66,6 @@ Classic One-up (Row + Column)
 Multi addition pairs
 Ratio pairs or difference pairs
 Region sum sudoku
-Sandwich sudoku
 Skyscraper
 Sumplete row
 Sumplete column

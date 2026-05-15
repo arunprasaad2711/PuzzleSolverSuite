@@ -1,4 +1,4 @@
-def SandwichConstraints(self, RowSums, ColSums, LowNumber=1, HighNumber=9):
+def SandWichConstraints(self, RowSums, ColSums, LowNumber=1, HighNumber=9):
             
     # Sandwich constraints along a Row
     # Scan through each row one-by-one

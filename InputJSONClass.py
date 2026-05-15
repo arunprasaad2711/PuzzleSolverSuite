@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List
+from typing import List, Optional
 
 class Omni(BaseModel):
     
@@ -89,6 +89,19 @@ class Omni(BaseModel):
     MultiAntiSumsCondition: bool = False
     MultiAntiSums: List[int] = Field(default_factory=list)
     MultiAntiSumsPairsList: List[List[List[List[int]]]] = Field(default_factory=list)
+
+    # Multi Anti Ratio Constraints
+    MultiAntiRatiosCondition: bool = False
+    MultiAntiRatiosNumerators: List[int] = Field(default_factory=list)
+    MultiAntiRatiosDenominators: List[int] = Field(default_factory=list)
+    MultiAntiRatiosPairsList: List[List[List[List[int]]]] = Field(default_factory=list)
+
+    # Sandwich Sudoku
+    SandWichSudoku: bool = False
+    SandWichRowSums: List[Optional[int]] = Field(default_factory=list)
+    SandWichColSums: List[Optional[int]] = Field(default_factory=list)
+    SandWichLowNumber: int = 1
+    SandWichHighNumber: int = 9
 
     # Unique Entity Condition
     ExtendedSudokuConstraints: bool = False

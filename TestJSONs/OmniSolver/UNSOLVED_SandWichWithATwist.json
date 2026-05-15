@@ -1,0 +1,21 @@
+{
+    "Matrix":[[0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 9, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 3, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0]],
+
+    "SandWichSudoku": true,
+    "SandWichRowSums": [13,  0, 29, 22, 18, 18, 35, 9, 35],
+    "SandWichColSums": [21, 26, 25, 21,  9, 17,  4, 3,  9],
+    
+    "url":"https://www.youtube.com/watch?v=L7KTfeKsxS4",
+    "title":"Sandwich Sudoku With A Twist",
+    "author":"Florian Zellmer",
+    "misc": "This puzzle is unsolved. It is a toroidal Sandwich",
+    "PuzzleTestStatus": "Not Verified"
+}

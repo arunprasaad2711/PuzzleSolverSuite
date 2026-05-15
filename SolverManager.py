@@ -97,6 +97,10 @@ def OmniSolverManager(puzzle: Omni):
     
     if puzzle.AdditionPairsCondition:
         Solver.AdditionPairs(puzzle.AdditionPairsSums, puzzle.AdditionPairs)
+    
+    if puzzle.SandWichSudoku:
+        Solver.SandWichConstraints(puzzle.SandWichRowSums, puzzle.SandWichColSums,
+                                   puzzle.SandWichLowNumber, puzzle.SandWichHighNumber)
             
     # with open("output.txt", "w") as f:
     #     # print(Solver.Model, file=f)
