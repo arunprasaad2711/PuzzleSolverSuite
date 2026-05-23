@@ -59,7 +59,7 @@ def LineDifferences(self, differences, difference_conditions, lines, linecolour=
             
         print(f"Line Difference condition {idx + 1} with difference {diff_string} {diff} added.")
 
-def RenbanLinesConstraints(self, lines, linecolour=None, loop=False, TreatAsCells=False):
+def RenbanLinesConstraints(self, lines):
     
     '''
     Renban Sudoku Conditions.

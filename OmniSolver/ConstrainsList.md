@@ -30,6 +30,11 @@ Multi AntiSums With Pair Exceptions
 Multi AntiRatios With Pair Exceptions
 Odd-Even constraint (some cells can be only odd or even)
 Sandwich sudoku
+Line Differences
+Renban Lines
+Nabner Lines
+German Whispers
+Dutch Whispers
 
 ## Yet To Migrate
 Arrow Average
@@ -45,10 +50,7 @@ Kakurasu row constraints
 Kakurasu column constraints
 Classic Kakurasu (Row + Column)
 Killer cages with unknown sums
-Line Differences
-Renban Lines
 Warping Renban Lines
-Nabner Lines
 Palindrome Lines
 3x3 Magic Square
 Orthogonal non-consecutive (some cells)

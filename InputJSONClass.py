@@ -112,6 +112,28 @@ class Omni(BaseModel):
     SandWichLowNumber: int = 1
     SandWichHighNumber: int = 9
 
+    # German Whisphers
+    GermanWhispersCondition: bool = False
+    GermanWhispersLines: List[List[List[int]]] = Field(default_factory=list)
+
+    # Dutch Whisphers
+    DutchWhispersCondition: bool = False
+    DutchWhispersLines: List[List[List[int]]] = Field(default_factory=list)
+
+    # Line Difference - Differences can be any value including German/Dutch whispers
+    LineDifferenceConstraint: bool = False
+    LineDifferenceLines: List[List[List[int]]] = Field(default_factory=list)
+    LineDifferenceDifferences: List[int] = Field(default_factory=list)
+    LineDifferenceConditions: List[int] = Field(default_factory=list)
+
+    # Renban Lines
+    RenbanCondition: bool = False
+    RenbanLines: List[List[List[int]]] = Field(default_factory=list)
+
+    # Nabner Lines
+    NabnerCondition: bool = False
+    NabnerLines: List[List[List[int]]] = Field(default_factory=list)
+
     # Unique Entity Condition
     ExtendedSudokuCondition: bool = False
 

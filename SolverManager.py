@@ -115,6 +115,27 @@ def OmniSolverManager(puzzle: Omni):
         Solver.ExtendedSudokuRowConstraint()
         Solver.ExtendedSudokuColConstraint()
         Solver.ExtendedSudokuSubGridConstraint()
+    
+    if puzzle.LineDifferenceConstraint:
+        Solver.LineDifferences(puzzle.LineDifferenceDifferences,
+                               puzzle.LineDifferenceConditions,
+                               puzzle.LineDifferenceLines)
+    
+    if puzzle.GermanWhispersCondition:
+        Solver.LineDifferences([5]*len(puzzle.GermanWhispersLines),
+                               [1]*len(puzzle.GermanWhispersLines),
+                               puzzle.GermanWhispersLines)
+    
+    if puzzle.DutchWhispersCondition:
+        Solver.LineDifferences([4]*len(puzzle.DutchWhispersLines),
+                               [1]*len(puzzle.DutchWhispersLines),
+                               puzzle.DutchWhispersLines)
+    
+    if puzzle.RenbanCondition:
+        Solver.RenbanLinesConstraints(puzzle.RenbanLines)
+    
+    if puzzle.NabnerCondition:
+        Solver.NabnerLinesConstraints(puzzle.NabnerLines)
             
     # with open("output.txt", "w") as f:
     #     # print(Solver.Model, file=f)
