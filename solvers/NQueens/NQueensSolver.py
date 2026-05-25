@@ -1,7 +1,7 @@
 import numpy as np
 import time
 from ortools.sat.python import cp_model
-from InputJSONClass import Chess
+from models.ChessSolverInputJSONClass import Chess
 
 class NQueens:
     

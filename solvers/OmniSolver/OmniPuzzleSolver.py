@@ -4,11 +4,11 @@ import numpy as np
 import sys
 from pathlib import Path
 import importlib.util
-from InputJSONClass import Omni
+from models.OmniSolverInputJSONClass import Omni
 
 class OmniPuzzleSolver:
     
-    def __init__(self, Data: Omni, SolversDirectory="./OmniSolver/constraints"):
+    def __init__(self, Data: Omni, SolversDirectory="solvers/OmniSolver/constraints"):
         
         # print(f"Initializing OmniPuzzleSolver with data {Data}")
         print(f"Initializing OmniPuzzleSolver Data")

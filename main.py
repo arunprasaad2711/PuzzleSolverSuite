@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from SolverManager import *
-from InputJSONClass import *
+from routes import omni, chess
 import os
 
 '''
@@ -27,88 +26,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get(path="/")
+@app.get(path="/", tags=["Health"])
 async def health_check():
-    return {"message": "OmniSolver API is running!"}
+    return {"message": "Puzzle Solver Suite API is running!"}
 
-@app.post("/solve")
-def solve_puzzle(puzzle: Omni):
-    
-    # print(f"Attempting to use OmniSolver with data {puzzle}")
-    
-    try:
-        Solutions = OmniSolverManager(puzzle)
-        
-        # Check if solutions were found
-        if Solutions and len(Solutions) > 0:
-            return {
-                "success": True,
-                "solutions": Solutions
-            }
-        else:
-            return {
-                "success": False,
-                "solutions": [],
-                "message": "No solutions found"
-            }
-            
-    except Exception as e:
-        return {
-            "success": False,
-            "solutions": [],
-            "message": f"Error solving puzzle: {str(e)}"
-        }
-
-@app.post("/nqueens")
-def solve_chess(puzzle: Chess):
-    
-    try:
-        Solutions = ChessSolverManager(puzzle)
-        
-        # Check if solutions were found
-        if Solutions and len(Solutions) > 0:
-            return {
-                "success": True,
-                "solutions": Solutions
-            }
-        else:
-            return {
-                "success": False,
-                "solutions": [],
-                "message": "No solutions found"
-            }
-            
-    except Exception as e:
-        return {
-            "success": False,
-            "solutions": [],
-            "message": f"Error solving puzzle: {str(e)}"
-        }
-        
-# @app.post("/pocketcube")
-# def solve_pocket_cube(puzzle: PocketCube):
-    
-#     try:
-#         Depth, Scramble, Solution = PocketCubeSolverManager(puzzle)
-        
-#         if Depth == -1:
-#             return {
-#                 "success": False,
-#                 "solutions": [],
-#                 "message": "No solutions found"
-#             }
-#         elif Depth >=0 :
-#             return {
-#                 "success": True,
-#                 "depth": Depth,
-#                 "scramble": Scramble,
-#                 "solution": Solution
-#             }
-#     except Exception as e:
-#         return {
-#             "success": False,
-#             "solutions": [],
-#             "message": f"Error solving puzzle: {str(e)}"
-#         }
-            
+app.include_router(omni.router)
+app.include_router(chess.router)
 
