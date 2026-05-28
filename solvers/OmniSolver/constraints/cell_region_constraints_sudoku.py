@@ -41,6 +41,8 @@ def RestrictedCellsConstraints(self, CellMap, CellValLists):
     '''
     Cells contain only specific values instead of all values.
     '''
+
+    CellMap = np.array(CellMap)
     
     # First, find all the unique entries in the Map
     UIDs = set()

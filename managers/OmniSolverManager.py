@@ -133,6 +133,13 @@ def OmniSolverManager(puzzle: Omni):
     
     if puzzle.NabnerCondition:
         Solver.NabnerLinesConstraints(puzzle.NabnerLines)
+    
+    if puzzle.PalindromeLineCondition:
+        Solver.PalindromeLineConstraints(puzzle.PalindromeLines)
+    
+    if puzzle.RestrictedCellsCondition:
+        Solver.RestrictedCellsConstraints(puzzle.RestrictedCellsMap,
+                                          puzzle.RestrictedCellsValsList)
             
     # with open("output.txt", "w") as f:
     #     # print(Solver.Model, file=f)

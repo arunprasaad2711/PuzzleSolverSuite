@@ -134,5 +134,14 @@ class Omni(BaseModel):
     NabnerCondition: bool = False
     NabnerLines: List[List[List[int]]] = Field(default_factory=list)
 
+    # Palindrome Lines
+    PalindromeLineCondition: bool = False
+    PalindromeLines: List[List[List[int]]] = Field(default_factory=list)
+
+    # Restricted Cells Condition. Some cells can have only restricted values
+    RestrictedCellsCondition: bool = False
+    RestrictedCellsMap: List[List[int]] = Field(default_factory=list)
+    RestrictedCellsValsList: List[List[int]] = Field(default_factory=list)
+
     # Unique Entity Condition
     ExtendedSudokuCondition: bool = False

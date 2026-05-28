@@ -35,12 +35,13 @@ Renban Lines
 Nabner Lines
 German Whispers
 Dutch Whispers
+Palindrome Lines
+RestrictedCells (cells can take only specific given values)
 
 ## Yet To Migrate
 Arrow Average
 Two-digit Arrow Sum (Need to check if this is working)
 Orthogonal neighbouring sums (cell is the sum of orthogonal neighbours)
-RestrictedCells (cells can take only specific given values)
 Clones
 Same set (similar to clones, but positions can vary)
 Positive Diagonal
@@ -51,7 +52,6 @@ Kakurasu column constraints
 Classic Kakurasu (Row + Column)
 Killer cages with unknown sums
 Warping Renban Lines
-Palindrome Lines
 3x3 Magic Square
 Orthogonal non-consecutive (some cells)
 Diagonal non-consecutive (some cells)
