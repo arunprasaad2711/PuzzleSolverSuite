@@ -138,6 +138,13 @@ class Omni(BaseModel):
     PalindromeLineCondition: bool = False
     PalindromeLines: List[List[List[int]]] = Field(default_factory=list)
 
+    # Region Sum Lines
+    RegionSumLinesCondition: bool = False
+    RegionSumLinesGridMap: List[List[int]] = Field(default_factory=list)
+    RegionSumLinesEqualSegmentsIDs: List[List[int]] = Field(default_factory=list)
+    RegionSumLinesNonRepeatValues: List[bool] = Field(default_factory=list)
+
+
     # Restricted Cells Condition. Some cells can have only restricted values
     RestrictedCellsCondition: bool = False
     RestrictedCellsMap: List[List[int]] = Field(default_factory=list)

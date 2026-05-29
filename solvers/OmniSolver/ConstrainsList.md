@@ -21,7 +21,6 @@ Quadruple sudoku
 Orthogonal non-consecutive  (whole grid)
 Diagonal non-consecutive (whole grid)
 Orthogonal minimum difference
-Diagonal minimum difference
 Argyle
 Girandola
 Centre dot
@@ -36,6 +35,7 @@ Nabner Lines
 German Whispers
 Dutch Whispers
 Palindrome Lines
+Region Sum Lines with and without line uniqueness
 RestrictedCells (cells can take only specific given values)
 
 ## Yet To Migrate

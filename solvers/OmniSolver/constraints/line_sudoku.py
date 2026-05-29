@@ -1,4 +1,6 @@
-def LineDifferences(self, differences, difference_conditions, lines, linecolour=None, loop=False):
+import numpy as np
+
+def LineDifferences(self, differences, difference_conditions, lines):
         
     '''
     Line Difference Conditions.
@@ -90,7 +92,7 @@ def RenbanLinesConstraints(self, lines):
         
     print("Renban Conditions Added")
 
-def WarpingRenbanLinesConstraints(self, LineSet1, LineSet2, linecolour=None):
+def WarpingRenbanLinesConstraints(self, LineSet1, LineSet2):
     
     '''
     Warping Renban Lines
@@ -182,7 +184,7 @@ def WarpingRenbanLinesConstraints(self, LineSet1, LineSet2, linecolour=None):
     
     print("Warping Renban Line Constraints Added")
 
-def NabnerLinesConstraints(self, lines, linecolour=None, loop=False, TreatAsCells=False):
+def NabnerLinesConstraints(self, lines):
     
     '''
     Nabner Sudoku Conditions.
@@ -237,4 +239,52 @@ def PalindromeLineConstraints(self, Lines):
             self.Model.Add(Cells[i] == Cells[-i-1])
 
     print("Palindrome Line Constraint added")
+
+def RegionSumLinesConstraints(self, LinesMatrix, EqualSegmentIDs, NonRepeatValues=None):
+
+    '''
+    The 3x3 box borders (or any custom borders) divide each line segments with the
+    same sum. Here, the LinesMatrix provides IDs for the different lines.
+    EqualSegmentIDs tell which segments are equal to which segments.
+    '''
+
+    LinesMatrix = np.array(LinesMatrix)
+    
+    # First, find all the unique entries in the SubGridMap
+    UIDs = set()
+    for i in range(self.Rows):
+        for j in range(self.Cols):
+            if LinesMatrix[i, j] not in UIDs:
+                UIDs.add(LinesMatrix[i, j])
+    # print(UIDs)
+    
+    # Remove 0 so that cells with 0 are not clubbed together as another group
+    if 0 in UIDs:
+        UIDs.remove(0)
+    
+    for LineSet in EqualSegmentIDs:
+        FirstID = LineSet[0]
+
+        FirstCollection = [ self.Cells[i][j] for i in range(self.Rows) 
+                    for j in range(self.Cols) if FirstID == LinesMatrix[i, j]]
+        
+        for NextID in LineSet[1:]:
+
+            NextCollection = [ self.Cells[i][j] for i in range(self.Rows) 
+                    for j in range(self.Cols) if NextID == LinesMatrix[i, j]]
+            
+            self.Model.Add(sum(FirstCollection) == sum(NextCollection))
+            print(f"Region Sum Constraint between Line IDs {FirstID} and {NextID} done")
+    
+    if NonRepeatValues is not None:
+        for LineSet, NonRepeatValue in zip(EqualSegmentIDs, NonRepeatValues):
+            if NonRepeatValue:
+                Collection = []
+                for ID in LineSet:
+                    IDCollection = [ self.Cells[i][j] for i in range(self.Rows) 
+                        for j in range(self.Cols) if ID == LinesMatrix[i, j]]
+                    Collection.extend(IDCollection)
+                self.Model.AddAllDifferent(Collection)
+                print(f"RegionSumLines Line with ID segments {LineSet} added as Unique")
+
 

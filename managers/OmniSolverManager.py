@@ -137,6 +137,11 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.PalindromeLineCondition:
         Solver.PalindromeLineConstraints(puzzle.PalindromeLines)
     
+    if puzzle.RegionSumLinesCondition:
+        Solver.RegionSumLinesConstraints(puzzle.RegionSumLinesGridMap,
+                                         puzzle.RegionSumLinesEqualSegmentsIDs,
+                                         puzzle.RegionSumLinesNonRepeatValues)
+    
     if puzzle.RestrictedCellsCondition:
         Solver.RestrictedCellsConstraints(puzzle.RestrictedCellsMap,
                                           puzzle.RestrictedCellsValsList)
