@@ -1,0 +1,25 @@
+{
+    "url": "https://www.youtube.com/watch?v=iI_B-Owogq0",
+    "name": "Miracles and Magic",
+    "author": "The Dying Flutchman",
+    "Matrix": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 2, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 4, 0, 0, 0, 0, 0]
+    ],
+    "AntiKnight": true,
+    "AntiKing": true,
+    "MagicSquareCondition": true,
+    "MagicSquareSets": [
+        [   [1, 1], [1, 4], [1, 7],
+            [4, 1], [4, 4], [4, 7],
+            [7, 1], [7, 4], [7, 7] ]
+    ],
+    "PuzzleTestStatus":"Verified"
+}

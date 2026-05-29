@@ -1,0 +1,26 @@
+{
+    "url": "https://www.youtube.com/watch?v=hAyZ9K2EBF0",
+    "name": "Magic Square Sudoku",
+    "author": "Aad van de Wetering",
+    "Matrix": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [3, 8, 4, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 2]
+    ],
+    "AntiKnight": true,
+    "TLBR_Diagonal": true,
+    "TRBL_Diagonal": true,
+    "MagicSquareCondition": true,
+    "MagicSquareSets": [
+        [   [3, 3], [3, 4], [3, 5],
+            [4, 3], [4, 4], [4, 5],
+            [5, 3], [5, 4], [5, 5] ]
+    ],
+    "PuzzleTestStatus":"Verified"
+}

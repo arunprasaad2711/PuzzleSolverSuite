@@ -37,6 +37,9 @@ Dutch Whispers
 Palindrome Lines
 Region Sum Lines with and without line uniqueness
 RestrictedCells (cells can take only specific given values)
+Positive Diagonal
+Negative Diagonal
+Magic Square
 
 ## Yet To Migrate
 Arrow Average
@@ -44,15 +47,12 @@ Two-digit Arrow Sum (Need to check if this is working)
 Orthogonal neighbouring sums (cell is the sum of orthogonal neighbours)
 Clones
 Same set (similar to clones, but positions can vary)
-Positive Diagonal
-Negative Diagonal
 Double Diagonal
 Kakurasu row constraints
 Kakurasu column constraints
 Classic Kakurasu (Row + Column)
 Killer cages with unknown sums
 Warping Renban Lines
-3x3 Magic Square
 Orthogonal non-consecutive (some cells)
 Diagonal non-consecutive (some cells)
 Row Count

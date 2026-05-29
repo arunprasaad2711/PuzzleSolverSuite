@@ -11,6 +11,10 @@ class Omni(BaseModel):
     UpperBound: int = 9
     ZeroMaskingDigit: int = -1
 
+    # Diagonal Condition
+    TLBR_Diagonal: bool = False
+    TRBL_Diagonal: bool = False
+
     # Sum of Elements in Rows, Colums, Subgrids
     RowSumCondition: bool = False
     ColSumCondition: bool = False
@@ -54,6 +58,10 @@ class Omni(BaseModel):
     # Windoku and Disjoint Sudoku
     Windoku: bool = False
     DisjointSudoku: bool = False
+
+    # Magic Square Condition
+    MagicSquareCondition: bool = False
+    MagicSquareSets: List[List[List[int]]] = Field(default_factory=List)
 
     # Killer Cage Sudoku
     KillerCage: bool = False

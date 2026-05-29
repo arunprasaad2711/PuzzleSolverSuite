@@ -10,6 +10,12 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.Sudoku:
         Solver.ClassicSudokuConstraints()
     
+    if puzzle.TLBR_Diagonal:
+        Solver.TLBR_DiagonalConstraint()
+    
+    if puzzle.TRBL_Diagonal:
+        Solver.TRBL_DiagonalConstraint()
+    
     if puzzle.ArgyleSudoku:
         Solver.ArgyleConstraints()
     
@@ -145,6 +151,9 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.RestrictedCellsCondition:
         Solver.RestrictedCellsConstraints(puzzle.RestrictedCellsMap,
                                           puzzle.RestrictedCellsValsList)
+    
+    if puzzle.MagicSquareCondition:
+        Solver.MagicSquareConstraints(puzzle.MagicSquareSets)
             
     # with open("output.txt", "w") as f:
     #     # print(Solver.Model, file=f)
