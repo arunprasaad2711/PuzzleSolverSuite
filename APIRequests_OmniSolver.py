@@ -9,7 +9,7 @@ def print_matrix(matrix):
 
 url = "http://127.0.0.1:5500/solve"
 PAYLOADS_DIR = "./TestJSONs/OmniSolver"
-FName = "OceanSpray_RegionSumLines.json"
+FName = "WhisperedSomethings.json"
 # FName = "Dummy.json"
 
 FilePath = os.path.join(PAYLOADS_DIR, FName)
