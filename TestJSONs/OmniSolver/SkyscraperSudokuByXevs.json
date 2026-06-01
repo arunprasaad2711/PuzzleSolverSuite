@@ -1,0 +1,22 @@
+{
+    "Matrix":[[1, 0, 0, 0, 0, 2, 0, 0, 8],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [3, 0, 0, 6, 0, 0, 4, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [5, 0, 2, 0, 0, 3, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [7, 0, 0, 8, 0, 0, 2, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [9, 0, 0, 0, 0, 4, 0, 0, 6]],
+
+    "url":"https://www.youtube.com/watch?v=rLlZA5ZND00",
+    "title":"Skyscraper Sudoku",
+    "author":"Xevs",
+    "PuzzleTestStatus": "Verified",
+
+    "SkyScraperConstraint": true,
+    "LeftSkyScrapers": [null, 2, null, 4, null, 6, null, 8, null],
+    "TopSkyScrapers": [null, null, null, null, 5, null, null, null, null],
+    "BottomSkyScrapers": [null, null, null, null, null, null, null, null, null],
+    "RightSkyScrapers": [null, null, null, null, null, null, null, null, null]
+}

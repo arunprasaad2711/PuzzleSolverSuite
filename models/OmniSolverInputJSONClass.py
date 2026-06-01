@@ -1,12 +1,12 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import Optional
 
 class Omni(BaseModel):
     
     # Basic Sudoku Puzzle order
     OrderRow: int = 3
     OrderCol: int = 3
-    Matrix: List[List[int]] = Field(default_factory=list)
+    Matrix: list[list[int]] = Field(default_factory=list)
     LowerBound: int = 1
     UpperBound: int = 9
     ZeroMaskingDigit: int = -1
@@ -48,12 +48,17 @@ class Omni(BaseModel):
     DiagonalMinDifferenceValue: int = 2
 
     # Irregular Sudoku Region
-    IrregularSudokuRegionMap: List[List[int]] = Field(default_factory=list)
+    IrregularSudokuRegionMap: list[list[int]] = Field(default_factory=list)
 
-    # Arrow Sudoku
+    # Arrow Sum Sudoku
     ArrowSumSudoku: bool = False
-    ArrowSumSudokuCircles: List[List[int]] = Field(default_factory=list)
-    ArrowSumSudokuBodies: List[List[List[int]]] = Field(default_factory=list)
+    ArrowSumSudokuCircles: list[list[int]] = Field(default_factory=list)
+    ArrowSumSudokuBodies: list[list[list[int]]] = Field(default_factory=list)
+
+    # Arrow Average Sudoku
+    ArrowAverageSudoku: bool = False
+    ArrowAverageSudokuCircles: list[list[int]] = Field(default_factory=list)
+    ArrowAverageSudokuBodies: list[list[list[int]]] = Field(default_factory=list)
 
     # Windoku and Disjoint Sudoku
     Windoku: bool = False
@@ -61,102 +66,113 @@ class Omni(BaseModel):
 
     # Magic Square Condition
     MagicSquareCondition: bool = False
-    MagicSquareSets: List[List[List[int]]] = Field(default_factory=List)
+    MagicSquareSets: list[list[list[int]]] = Field(default_factory=list)
 
     # Killer Cage Sudoku
     KillerCage: bool = False
-    KillerCageMap: List[List[int]] = Field(default_factory=list)
-    KillerCageSums: List[int] = Field(default_factory=list)
+    KillerCageMap: list[list[int]] = Field(default_factory=list)
+    KillerCageSums: list[int] = Field(default_factory=list)
 
     # Little Killer Cage Sudoku
     LittleKillerCage: bool = False
-    LittleKillerCageMap: List[List[int]] = Field(default_factory=list)
-    LittleKillerCageSums: List[int] = Field(default_factory=list)
+    LittleKillerCageMap: list[list[int]] = Field(default_factory=list)
+    LittleKillerCageSums: list[int] = Field(default_factory=list)
 
     # Odd Even Cell Sudoku
     OddEvenCell: bool = False
-    OddEvenCellMap: List[List[int]] = Field(default_factory=list)
+    OddEvenCellMap: list[list[int]] = Field(default_factory=list)
 
     # Difference Pairs
     DifferencePairsCondition: bool = False
-    DifferencePairs: List[List[List[int]]] = Field(default_factory=list)
-    DifferencePairsDifferences: List[int] = Field(default_factory=list)
+    DifferencePairs: list[list[list[int]]] = Field(default_factory=list)
+    DifferencePairsDifferences: list[int] = Field(default_factory=list)
 
     # Ratio Pairs
     RatioPairsCondition: bool = False
-    RatioPairs: List[List[List[int]]] = Field(default_factory=list)
-    RatioPairsNumerators: List[int] = Field(default_factory=list)
-    RatioPairsDenominators: List[int] = Field(default_factory=list)
+    RatioPairs: list[list[list[int]]] = Field(default_factory=list)
+    RatioPairsNumerators: list[int] = Field(default_factory=list)
+    RatioPairsDenominators: list[int] = Field(default_factory=list)
 
     # Thermometers
     ThermometerConstraint: bool = False
-    Thermometers: List[List[List[int]]] = Field(default_factory=list)
+    Thermometers: list[list[list[int]]] = Field(default_factory=list)
+
+    # Slow Thermometers
+    SlowThermometerConstraint: bool = False
+    SlowThermometers: list[list[list[int]]] = Field(default_factory=list)
 
     # Quads Condition
     QuadsCondition: bool = False
-    QuadIDs: List[List[int]] = Field(default_factory=list)
-    QuadVals: List[List[int]] = Field(default_factory=list)
+    QuadIDs: list[list[int]] = Field(default_factory=list)
+    QuadVals: list[list[int]] = Field(default_factory=list)
 
     # Addition Pairs
     AdditionPairsCondition: bool = False
-    AdditionPairs: List[List[List[int]]] = Field(default_factory=list)
-    AdditionPairsSums: List[int] = Field(default_factory=list)
+    AdditionPairs: list[list[list[int]]] = Field(default_factory=list)
+    AdditionPairsSums: list[int] = Field(default_factory=list)
 
     # Multi Anti Sum Constraints
     MultiAntiSumsCondition: bool = False
-    MultiAntiSums: List[int] = Field(default_factory=list)
-    MultiAntiSumsPairsList: List[List[List[List[int]]]] = Field(default_factory=list)
+    MultiAntiSums: list[int] = Field(default_factory=list)
+    MultiAntiSumsPairsList: list[list[list[list[int]]]] = Field(default_factory=list)
 
     # Multi Anti Ratio Constraints
     MultiAntiRatiosCondition: bool = False
-    MultiAntiRatiosNumerators: List[int] = Field(default_factory=list)
-    MultiAntiRatiosDenominators: List[int] = Field(default_factory=list)
-    MultiAntiRatiosPairsList: List[List[List[List[int]]]] = Field(default_factory=list)
+    MultiAntiRatiosNumerators: list[int] = Field(default_factory=list)
+    MultiAntiRatiosDenominators: list[int] = Field(default_factory=list)
+    MultiAntiRatiosPairsList: list[list[list[list[int]]]] = Field(default_factory=list)
 
     # Sandwich Sudoku
     SandWichSudoku: bool = False
-    SandWichRowSums: List[Optional[int]] = Field(default_factory=list)
-    SandWichColSums: List[Optional[int]] = Field(default_factory=list)
+    SandWichRowSums: list[Optional[int]] = Field(default_factory=list)
+    SandWichColSums: list[Optional[int]] = Field(default_factory=list)
     SandWichLowNumber: int = 1
     SandWichHighNumber: int = 9
 
+    # Skyscraper Sudoku
+    SkyScraperConstraint: bool = False
+    LeftSkyScrapers: list[Optional[int]] = Field(default_factory=list)
+    RightSkyScrapers: list[Optional[int]] = Field(default_factory=list)
+    TopSkyScrapers: list[Optional[int]] = Field(default_factory=list)
+    BottomSkyScrapers: list[Optional[int]] = Field(default_factory=list)
+
     # German Whisphers
     GermanWhispersCondition: bool = False
-    GermanWhispersLines: List[List[List[int]]] = Field(default_factory=list)
+    GermanWhispersLines: list[list[list[int]]] = Field(default_factory=list)
 
     # Dutch Whisphers
     DutchWhispersCondition: bool = False
-    DutchWhispersLines: List[List[List[int]]] = Field(default_factory=list)
+    DutchWhispersLines: list[list[list[int]]] = Field(default_factory=list)
 
     # Line Difference - Differences can be any value including German/Dutch whispers
     LineDifferenceConstraint: bool = False
-    LineDifferenceLines: List[List[List[int]]] = Field(default_factory=list)
-    LineDifferenceDifferences: List[int] = Field(default_factory=list)
-    LineDifferenceConditions: List[int] = Field(default_factory=list)
+    LineDifferenceLines: list[list[list[int]]] = Field(default_factory=list)
+    LineDifferenceDifferences: list[int] = Field(default_factory=list)
+    LineDifferenceConditions: list[int] = Field(default_factory=list)
 
     # Renban Lines
     RenbanCondition: bool = False
-    RenbanLines: List[List[List[int]]] = Field(default_factory=list)
+    RenbanLines: list[list[list[int]]] = Field(default_factory=list)
 
     # Nabner Lines
     NabnerCondition: bool = False
-    NabnerLines: List[List[List[int]]] = Field(default_factory=list)
+    NabnerLines: list[list[list[int]]] = Field(default_factory=list)
 
     # Palindrome Lines
     PalindromeLineCondition: bool = False
-    PalindromeLines: List[List[List[int]]] = Field(default_factory=list)
+    PalindromeLines: list[list[list[int]]] = Field(default_factory=list)
 
     # Region Sum Lines
     RegionSumLinesCondition: bool = False
-    RegionSumLinesGridMap: List[List[int]] = Field(default_factory=list)
-    RegionSumLinesEqualSegmentsIDs: List[List[int]] = Field(default_factory=list)
-    RegionSumLinesNonRepeatValues: List[bool] = Field(default_factory=list)
+    RegionSumLinesGridMap: list[list[int]] = Field(default_factory=list)
+    RegionSumLinesEqualSegmentsIDs: list[list[int]] = Field(default_factory=list)
+    RegionSumLinesNonRepeatValues: list[bool] = Field(default_factory=list)
 
 
     # Restricted Cells Condition. Some cells can have only restricted values
     RestrictedCellsCondition: bool = False
-    RestrictedCellsMap: List[List[int]] = Field(default_factory=list)
-    RestrictedCellsValsList: List[List[int]] = Field(default_factory=list)
+    RestrictedCellsMap: list[list[int]] = Field(default_factory=list)
+    RestrictedCellsValsList: list[list[int]] = Field(default_factory=list)
 
     # Unique Entity Condition
     ExtendedSudokuCondition: bool = False

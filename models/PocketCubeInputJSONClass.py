@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import Optional
 
 class PocketCube(BaseModel):
     
-    Hashes: List[int]
+    Hashes: list[int]

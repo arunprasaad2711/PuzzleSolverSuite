@@ -56,6 +56,10 @@ def OmniSolverManager(puzzle: Omni):
         Solver.ArrowSum(puzzle.ArrowSumSudokuCircles,
                         puzzle.ArrowSumSudokuBodies)
     
+    if puzzle.ArrowAverageSudoku:
+        Solver.ArrowAverage(puzzle.ArrowAverageSudokuCircles,
+                        puzzle.ArrowAverageSudokuBodies)
+    
     if puzzle.Windoku:
         Solver.WindokuConstraints()
     
@@ -94,6 +98,9 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.ThermometerConstraint:
         Solver.ThermometerConstraints(puzzle.Thermometers)
     
+    if puzzle.SlowThermometerConstraint:
+        Solver.SlowThermometerConstraints(puzzle.SlowThermometers)
+    
     if puzzle.QuadsCondition:
         Solver.QuadsConstraints(puzzle.QuadIDs, puzzle.QuadVals)
     
@@ -113,6 +120,10 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.SandWichSudoku:
         Solver.SandWichConstraints(puzzle.SandWichRowSums, puzzle.SandWichColSums,
                                    puzzle.SandWichLowNumber, puzzle.SandWichHighNumber)
+    
+    if puzzle.SkyScraperConstraint:
+        Solver.SkyscraperConstraints(puzzle.LeftSkyScrapers, puzzle.RightSkyScrapers,
+                                     puzzle.TopSkyScrapers, puzzle.BottomSkyScrapers)
     
     if puzzle.ExtendedSudokuCondition:
         Solver.ExtendedSudokuRowConstraint()

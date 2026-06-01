@@ -1,4 +1,7 @@
-## Migrated
+## Ready in Frontend
+None
+
+## Migrated to Backend
 Row-uniqueness
 Column-uniqueness
 Latin Squares (Row and Column uniqueness)
@@ -9,6 +12,7 @@ Anti-king
 Diagonal minimum difference
 Irregular Subgrid Uniqueness
 Arrow Sum
+Arrow Average
 Windoku
 Disjoint Sudoku
 Killer cages
@@ -17,6 +21,7 @@ Ratio pairs
 Difference pairs
 Addition pairs
 Regular thermometer
+Slow thermometer
 Quadruple sudoku
 Orthogonal non-consecutive  (whole grid)
 Diagonal non-consecutive (whole grid)
@@ -39,15 +44,15 @@ Region Sum Lines with and without line uniqueness
 RestrictedCells (cells can take only specific given values)
 Positive Diagonal
 Negative Diagonal
+Double Diagonal
 Magic Square
+Skyscraper
 
 ## Yet To Migrate
-Arrow Average
 Two-digit Arrow Sum (Need to check if this is working)
 Orthogonal neighbouring sums (cell is the sum of orthogonal neighbours)
 Clones
 Same set (similar to clones, but positions can vary)
-Double Diagonal
 Kakurasu row constraints
 Kakurasu column constraints
 Classic Kakurasu (Row + Column)
@@ -68,8 +73,6 @@ Classic One-up (Row + Column)
 Multi addition pairs
 Ratio pairs or difference pairs
 Region sum sudoku
-Skyscraper
 Sumplete row
 Sumplete column
 Classic Sumplete (row + column)
-Slow thermometer
