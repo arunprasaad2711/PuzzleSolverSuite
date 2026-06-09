@@ -8,7 +8,6 @@ def ClassicSudokuConstraints(self):
     self.SudokuRowConstraints()
     self.SudokuColConstraints()
     self.SudokuSubGridConstraints()
-    self.InitializeGivenEntries()
     
     print("Classic Constraints added.")
     

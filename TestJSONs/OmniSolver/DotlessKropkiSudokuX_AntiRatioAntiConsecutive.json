@@ -1,0 +1,29 @@
+{
+    "Matrix":[[0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 1, 0, 0, 0, 0, 0, 2, 0],
+              [0, 0, 0, 0, 4, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0]],
+    
+    "url":"https://www.youtube.com/watch?v=1QP7yviZYTU",
+    "title":"Dotless Kropki Sudoku X",
+    "author":"Phistomefel",
+    "PuzzleTestStatus":"Verified",
+
+    "TLBR_Diagonal": true,
+    "TRBL_Diagonal": true,
+
+    "MultiAntiDifferenceCondition": true,
+    "MultiAntiDifference": [1],
+    "MultiAntiDifferencePairsList": [[]],
+    
+    "MultiAntiRatiosCondition": true,
+    "MultiAntiRatiosNumerators": [1],
+    "MultiAntiRatiosDenominators": [2],
+    "MultiAntiRatiosPairsList": [[]]
+
+}

@@ -2,77 +2,166 @@
 None
 
 ## Migrated to Backend
-Row-uniqueness
-Column-uniqueness
-Latin Squares (Row and Column uniqueness)
-Subgrid uniqueness
-Classic Sudoku (Latin Square + Subgrid)
-Anti-knight
-Anti-king
-Diagonal minimum difference
-Irregular Subgrid Uniqueness
-Arrow Sum
-Arrow Average
-Windoku
-Disjoint Sudoku
-Killer cages
-Little Killer
-Ratio pairs
-Difference pairs
-Addition pairs
-Regular thermometer
-Slow thermometer
-Quadruple sudoku
-Orthogonal non-consecutive  (whole grid)
-Diagonal non-consecutive (whole grid)
-Orthogonal minimum difference
-Argyle
-Girandola
-Centre dot
-Asterisk
-Multi AntiSums With Pair Exceptions
-Multi AntiRatios With Pair Exceptions
-Odd-Even constraint (some cells can be only odd or even)
-Sandwich sudoku
-Line Differences
-Renban Lines
-Nabner Lines
-German Whispers
-Dutch Whispers
-Palindrome Lines
-Region Sum Lines with and without line uniqueness
-RestrictedCells (cells can take only specific given values)
-Positive Diagonal
-Negative Diagonal
-Double Diagonal
-Magic Square
-Skyscraper
+1. Row-uniqueness
+2. Column-uniqueness
+3. Latin Squares (Row and Column uniqueness)
+4. Subgrid uniqueness
+5. Classic Sudoku (Latin Square + Subgrid)
+6. Anti-knight
+7. Anti-king
+8. Diagonal minimum difference
+9. Irregular Subgrid Uniqueness
+10. Arrow Sum
+11. Arrow Average
+12. Windoku
+13. Disjoint Sudoku
+14. Killer cages
+15. Little Killer
+16. Ratio pairs
+17. Difference pairs
+18. Addition pairs
+19. Regular thermometer
+20. Slow thermometer
+21. Quadruple sudoku
+22. Orthogonal non-consecutive  (whole grid)
+23. Diagonal non-consecutive (whole grid)
+24. Orthogonal minimum difference
+25. Argyle
+26. Girandola
+27. Centre dot
+28. Asterisk
+29. Multi AntiSums With Pair Exceptions
+30. Multi AntiRatios With Pair Exceptions
+31. Odd-Even constraint (some cells can be only odd or even)
+32. Sandwich sudoku
+33. Line Differences
+34. Renban Lines
+35. Nabner Lines
+36. German Whispers
+37. Dutch Whispers
+38. Palindrome Lines
+39. Region Sum Lines with and without line uniqueness
+40. RestrictedCells (cells can take only specific given values)
+41. Positive Diagonal
+42. Negative Diagonal
+43. Double Diagonal
+44. Magic Square
+45. Skyscraper
+46. Same set (similar to clones, but positions can vary)
+47. Clones
+48. Hidato - King Mode
+49. Hidato - Knight Mode
 
 ## Yet To Migrate
-Two-digit Arrow Sum (Need to check if this is working)
-Orthogonal neighbouring sums (cell is the sum of orthogonal neighbours)
-Clones
-Same set (similar to clones, but positions can vary)
-Kakurasu row constraints
-Kakurasu column constraints
-Classic Kakurasu (Row + Column)
-Killer cages with unknown sums
-Warping Renban Lines
-Orthogonal non-consecutive (some cells)
-Diagonal non-consecutive (some cells)
-Row Count
-Column count
-Grid count
-Nori-Nori adjacency
-Nori-Nori (grid count + nori-nori adjacency)
-Star battle adjacency
-Star battle (row + column + grid count + adjacency)
-One-up row constraints
-One-up column constraints
-Classic One-up (Row + Column)
-Multi addition pairs
-Ratio pairs or difference pairs
-Region sum sudoku
-Sumplete row
-Sumplete column
-Classic Sumplete (row + column)
+1. Two-digit Arrow Sum (Need to check if this is working)
+2. Orthogonal neighbouring sums (cell is the sum of orthogonal neighbours)
+3. Kakurasu row constraints
+4. Kakurasu column constraints
+5. Classic Kakurasu (Row + Column)
+6. Killer cages with unknown sums
+7. Warping Renban Lines
+8. Orthogonal non-consecutive (some cells)
+9. Diagonal non-consecutive (some cells)
+10. Row Count
+11. Column count
+12. Grid count
+13. Nori-Nori adjacency
+14. Nori-Nori (grid count + nori-nori adjacency)
+15. Star battle adjacency
+16. Star battle (row + column + grid count + adjacency)
+17. One-up row constraints
+18. One-up column constraints
+19. Classic One-up (Row + Column)
+20. Multi addition pairs
+21. Ratio pairs or difference pairs
+22. Region sum sudoku
+23. Sumplete row
+24. Sumplete column
+25. Classic Sumplete (row + column)
+
+## To Create - On Priority Pipeline
+* Modular Lines
+* Rossini Sudoku
+* Entropic Lines
+* Prime Lines
+
+## Future Sudoku Variants Checklist:
+1. Between circles
+2. Zipper lines
+3. Counting Circles
+4. Anti-Manhattan
+5. Anti-Diagonal
+6. Queen Sudoku
+7. Princess Sudoku
+8.  Jousting Knight
+9.  Jousting King
+10. Triplet lines
+11. Cell greater than other
+12. Royal Sudoku - (some numbers are kings, some are knights, and some are queens)
+13. Fast thermometers
+14. Multiplication Killer cage (numbers multiply to a given product)
+15. Slot machine sudoku
+16. Pole Position sudoku
+17. Numbered rooms
+18. Look and See cages
+19. Killer or Look and See cage
+20. Hidden Skyscraper
+21. Double sandwiches - two different sums between two different pairs of numbers
+22. Double sandwiches - figure out the pairs
+23. Knight's move - anti-consecutive
+24. Knight's move - even/odd parity
+25. Knight's move - add to a sum
+26. Knight's move - have a difference
+27. Knight's move - anti-sum
+28. Knight's move - anti-difference
+29. Equal sum cages.
+30. Outside Parity
+31. X-sums
+32. Serbian Frame
+
+## Extremely difficult to create
+1. Hidden Clone eg: [Hidden Clones](https://www.youtube.com/watch?v=8s7LPmQyWHA)
+2. Nadir - auto find one cell that produces 8 thermometers in all directions.
+3. Land and Water - odd/even cells must form patterns. You find the pattern.
+4. Snake sudoku - form a snake of numbers from a starting point to an ending point.
+5. Taiga - (puzzle with indexers?! Simon Anthony took 3.5 hours to solve this)
+6. Wrogn - (Rules are not what they are)
+7. 2 Truths and a lie puzzles
+8. Chaos puzzles (in 11x11 grid, create 9 3x3 non-overlapping boxes with numbers 1-9. Rows and columns can have blanks, but no repeated digits.)
+
+## Puzzles to achieve - On the list
+1. Akari
+2. Stostone
+3. Battle Ship
+4. Numberlink
+5. Hidato
+6. Slitherlink (doubtful)
+7. Fillomino (doubtful)
+8. Mochikoro
+9. Hitori
+10. Kakuro
+11. Nurikabe
+12. Nonogram
+13. Tents and Trees
+14. Starstruck
+15. Aqre
+16. Stich puzzle
+
+## Blogs/Websites
+1. [Puzzle Parasite](https://puzzleparasite.blogspot.com/) - by Bram de Laat
+   * Bram's website is a massive collection of puzzles - with some of them appearing in World Puzzle Championships.
+2. [UK Puzzles](https://ukpuzzles.org/)
+   * Website for sudoku and other puzzles world-level competitions in UK.
+
+## YouTube Channels
+1. [Cracking The Cryptic](https://www.youtube.com/@CrackingTheCryptic)
+2. [Unshackling Sudokus & Puzzles](https://www.youtube.com/@unshacklingsudokuspuzzles)
+3. [Sudoku Sleuth](https://www.youtube.com/@SudokuSleuth)
+4. [Bremster Puzzles](https://www.youtube.com/@BremSterPuzzles)
+5. [Chatty Kathy](https://www.youtube.com/@ChattyKathy)
+6. [Rangsk](https://www.youtube.com/@Rangsk)
+7. [Puzzle Genius](https://www.youtube.com/@PuzzleGeniusBooks)
+8. [Thomas Snyder](https://www.youtube.com/@drsudoku)
+9. [Steven Scott](https://www.youtube.com/@StevenScottAnderson)
+10. [Pathologic](https://www.youtube.com/@jchaffer)
+11. [Lucian's Place](https://www.youtube.com/@luciansrule)

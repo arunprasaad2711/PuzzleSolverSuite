@@ -1,0 +1,31 @@
+{
+    "Matrix":[[0, 0, 4, 0, 0, 0, 0, 0, 7],
+              [0, 0, 0, 0, 5, 0, 1, 0, 0],
+              [0, 0, 0, 2, 0, 0, 0, 0, 0],
+              [0, 0, 5, 4, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 3],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 8],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0]],
+
+    "url":"https://www.youtube.com/watch?v=OkDyZvHDoiA",
+    "title":"Tetro Trick",
+    "author":"Aad van de Wetering",
+    "PuzzleTestStatus": "Verified",
+
+    "AntiKnight": true,
+
+    "ThermometerConstraint": true,
+    "Thermometers": [
+        [[8, 5], [7, 5], [6, 5], [5, 5], [5, 6], [5, 7], [5, 8]]
+    ],
+
+    "SameSetRegionsConstraint": true,
+    "SameSetRegionsSet1": [
+        [[4, 0], [4, 1], [4, 2], [4, 3]]
+    ],
+    "SameSetRegionsSet2": [
+        [[5, 4], [6, 4], [7, 4], [8, 4]]
+    ]
+}

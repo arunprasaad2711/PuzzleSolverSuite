@@ -6,6 +6,9 @@ def OmniSolverManager(puzzle: Omni):
     # print(f"Inside OmniSolverManager with data {puzzle}")
     
     Solver = OmniPuzzleSolver(puzzle)
+
+    if puzzle.Matrix:
+        Solver.InitializeGivenEntries()
     
     if puzzle.Sudoku:
         Solver.ClassicSudokuConstraints()
@@ -32,7 +35,6 @@ def OmniSolverManager(puzzle: Omni):
         Solver.SudokuRowConstraints()
         Solver.SudokuColConstraints()
         Solver.SudokuCustomGridConstraints(puzzle.IrregularSudokuRegionMap)
-        Solver.InitializeGivenEntries()
         
     if puzzle.AntiKing:
         Solver.AntiKingConstraints()
@@ -104,14 +106,28 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.QuadsCondition:
         Solver.QuadsConstraints(puzzle.QuadIDs, puzzle.QuadVals)
     
+    if puzzle.SameSetRegionsConstraint:
+        Solver.SameSetRegions(puzzle.SameSetRegionsSet1, puzzle.SameSetRegionsSet2)
+    
+    if puzzle.CloneRegionsConstraint:
+        Solver.CloneRegions(puzzle.CloneRegionsSet1, puzzle.CloneRegionsSet2)
+    
     if puzzle.MultiAntiSumsCondition:
         for AntiSum, PairsExceptions in zip(puzzle.MultiAntiSums, puzzle.MultiAntiSumsPairsList):
             Solver.OrthogonalAntiSumConstraints(AntiSum, PairsExceptions)
     
+    if puzzle.MultiAntiDifferenceCondition:
+        print("Inside MultiAntiDifference")
+        for AntiDifference, PairsExceptions in zip(puzzle.MultiAntiDifference, puzzle.MultiAntiDifferencePairsList):
+            print(f"Anti difference = {AntiDifference}, pair = {PairsExceptions}")
+            Solver.OrthogonalAntiDifferenceConstraints(AntiDifference, PairsExceptions)
+    
     if puzzle.MultiAntiRatiosCondition:
+        print("Inside MultiAntiRatios")
         for numerator, denominator, PairsExceptions in zip(puzzle.MultiAntiRatiosNumerators, 
                                                             puzzle.MultiAntiRatiosDenominators, 
                                                             puzzle.MultiAntiRatiosPairsList):
+            print(f"Anti ratio = {numerator} : {denominator}, pair = {PairsExceptions}")
             Solver.OrthogonalAntiRatioConstraints(numerator, denominator, PairsExceptions)
     
     if puzzle.AdditionPairsCondition:
@@ -165,13 +181,20 @@ def OmniSolverManager(puzzle: Omni):
     
     if puzzle.MagicSquareCondition:
         Solver.MagicSquareConstraints(puzzle.MagicSquareSets)
-            
-    # with open("output.txt", "w") as f:
-    #     # print(Solver.Model, file=f)
-    #     for constraint in Solver.Model.Proto().constraints:
-    #         print(constraint, file=f)
-        
-    Solutions = Solver.MultiSolutionSolve()
-    # Solutions = Solver.Solve()
+    
+    if puzzle.Hidato:
+        Solver.HidatoConstraints(puzzle.HidatoRuleMode)
+    
+    if puzzle.PrintConstraints:
+        with open("output.txt", "w") as f:
+            # print(Solver.Model, file=f)
+            for constraint in Solver.Model.Proto().constraints:
+                print(constraint, file=f)
+    
+    if puzzle.SingleSolution:
+        Solutions = Solver.Solve()
+    else:
+        Solutions = Solver.MultiSolutionSolve()
+    
     
     return Solutions

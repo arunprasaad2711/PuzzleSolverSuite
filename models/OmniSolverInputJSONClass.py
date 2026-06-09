@@ -1,7 +1,10 @@
 from pydantic import BaseModel, Field
-from typing import Optional
+from typing import Optional, Literal
 
 class Omni(BaseModel):
+
+    SingleSolution: bool = False
+    PrintConstraints: bool = False
     
     # Basic Sudoku Puzzle order
     OrderRow: int = 3
@@ -106,6 +109,16 @@ class Omni(BaseModel):
     QuadIDs: list[list[int]] = Field(default_factory=list)
     QuadVals: list[list[int]] = Field(default_factory=list)
 
+    # Same Set Regions
+    SameSetRegionsConstraint: bool = False
+    SameSetRegionsSet1: list[list[list[int]]] = Field(default_factory=list)
+    SameSetRegionsSet2: list[list[list[int]]] = Field(default_factory=list)
+
+    # Clone Regions
+    CloneRegionsConstraint: bool = False
+    CloneRegionsSet1: list[list[list[int]]] = Field(default_factory=list)
+    CloneRegionsSet2: list[list[list[int]]] = Field(default_factory=list)
+
     # Addition Pairs
     AdditionPairsCondition: bool = False
     AdditionPairs: list[list[list[int]]] = Field(default_factory=list)
@@ -114,13 +127,18 @@ class Omni(BaseModel):
     # Multi Anti Sum Constraints
     MultiAntiSumsCondition: bool = False
     MultiAntiSums: list[int] = Field(default_factory=list)
-    MultiAntiSumsPairsList: list[list[list[list[int]]]] = Field(default_factory=list)
+    MultiAntiSumsPairsList: Optional[list[list[list[int]]]] = Field(default_factory=list)
+
+    # Multi Anti Difference Constraints
+    MultiAntiDifferenceCondition: bool = False
+    MultiAntiDifference: list[int] = Field(default_factory=list)
+    MultiAntiDifferencePairsList: Optional[list[list[list[int]]]] = Field(default_factory=list)
 
     # Multi Anti Ratio Constraints
     MultiAntiRatiosCondition: bool = False
     MultiAntiRatiosNumerators: list[int] = Field(default_factory=list)
     MultiAntiRatiosDenominators: list[int] = Field(default_factory=list)
-    MultiAntiRatiosPairsList: list[list[list[list[int]]]] = Field(default_factory=list)
+    MultiAntiRatiosPairsList: Optional[list[list[list[int]]]] = Field(default_factory=list)
 
     # Sandwich Sudoku
     SandWichSudoku: bool = False
@@ -176,3 +194,7 @@ class Omni(BaseModel):
 
     # Unique Entity Condition
     ExtendedSudokuCondition: bool = False
+
+    # Hidato Constraints
+    Hidato: bool = False
+    HidatoRuleMode: Literal["King", "Knight"] = "King"

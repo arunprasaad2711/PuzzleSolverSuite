@@ -109,6 +109,11 @@ def AdditionPairs(self, sums, pairs):
     print(f"Total {len(pairs)} addition pair constraints added.")
 
 def MultiAdditionPairs(self, sums, pairs):
+
+    '''
+    Each pair should sum up to one of the given sums.
+    eg: https://www.youtube.com/watch?v=LelY7UuXAzw
+    '''
     
     if len(sums) != len(pairs):
         raise ValueError("Sums and pairs must have the same length.")
@@ -185,6 +190,11 @@ def GetAllOrthogonalPairs(self):
     return pairs
 
 def OrthogonalAntiSumConstraints(self, AntiSum, PairExceptions=None):
+
+    '''
+    Orthogonally adjacent cells must not add to a given sum.
+    '''
+
     pairs = self.GetAllOrthogonalPairs()
     
     if PairExceptions is not None:
@@ -197,6 +207,13 @@ def OrthogonalAntiSumConstraints(self, AntiSum, PairExceptions=None):
     print(f"Orthogonal Anti-Sum condition of {AntiSum} constraints added.")
 
 def OrthogonalAntiRatioConstraints(self, numerator, denominator, PairExceptions=None):
+
+    '''
+    Orthogonally adjacent cells must not be in a given ratio
+
+    eg: https://www.youtube.com/watch?v=1QP7yviZYTU
+    '''
+
     pairs = self.GetAllOrthogonalPairs()
 
     if PairExceptions is not None:
@@ -207,3 +224,23 @@ def OrthogonalAntiRatioConstraints(self, numerator, denominator, PairExceptions=
         self.Model.Add(self.Cells[pair2[0]][pair2[1]] != denominator * self.Cells[pair1[0]][pair1[1]])
 
     print(f"Orthogonal Anti-Ratio condition of {numerator}:{denominator} ratio constraints added.")
+
+def OrthogonalAntiDifferenceConstraints(self, AntiDifference, PairExceptions=None):
+
+    '''
+    Orthogonally adjacent cells must not be in a given difference
+
+    eg: https://www.youtube.com/watch?v=1QP7yviZYTU
+    '''
+
+    pairs = self.GetAllOrthogonalPairs()
+
+    if PairExceptions is not None:
+        pairs = [p for p in pairs if list(p) not in [list(e) for e in PairExceptions]]
+
+    for pair1, pair2 in pairs:
+        self.Model.Add(self.Cells[pair1[0]][pair1[1]] != AntiDifference + self.Cells[pair2[0]][pair2[1]])
+        self.Model.Add(self.Cells[pair2[0]][pair2[1]] != AntiDifference + self.Cells[pair1[0]][pair1[1]])
+
+    print(f"Orthogonal Anti-Difference condition of {AntiDifference} difference constraints added.")
+
