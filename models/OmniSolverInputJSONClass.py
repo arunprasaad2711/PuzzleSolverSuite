@@ -198,3 +198,8 @@ class Omni(BaseModel):
     # Hidato Constraints
     Hidato: bool = False
     HidatoRuleMode: Literal["King", "Knight"] = "King"
+
+    # Star Battle Constraints. Also applicable for Starstruck/Queens/Kings
+    StarBattle: bool = False
+    StarsPerRegion: int = 2
+    StarBattleGridMap: list[list[int]] = Field(default_factory=list)

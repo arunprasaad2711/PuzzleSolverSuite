@@ -185,6 +185,9 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.Hidato:
         Solver.HidatoConstraints(puzzle.HidatoRuleMode)
     
+    if puzzle.StarBattle:
+        Solver.ClassicStarBattleConstraints(puzzle.StarBattleGridMap, puzzle.StarsPerRegion)
+    
     if puzzle.PrintConstraints:
         with open("output.txt", "w") as f:
             # print(Solver.Model, file=f)

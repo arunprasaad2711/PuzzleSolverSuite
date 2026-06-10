@@ -60,68 +60,10 @@ class OmniPuzzleSolver:
                         ]
                         for i in range(self.Rows)
                     ]
-    
-        self.PrintNumber = True
-
-        self.ModelStatus = False
         
         self.solvers_directory = Path(SolversDirectory)
         self._load_solver_methods()
         
-        ## Parameters for different sudoku and puzzle solvers
-        
-        self.KillerCageMaps = []
-        self.KillerCageSums = []
-        
-        self.TLBR_Diagonal = False
-        self.TRBL_Diagonal = False
-        self.ArgyleSudoku = False
-        
-        self.ColouredCells = []
-        self.ColouredCellsColours = []
-        
-        self.Lines = []
-        self.LineColours = []
-        
-        self.ArrowCircles = []
-        self.ArrowBodies = []
-        
-        self.RatioPairsPoints = []
-        self.DifferencePairsPoints = []
-        self.AdditionPairsPoints = []
-        self.AdditionPairsSums = []
-        self.CosmeticPairsPoints = []
-        self.CosmeticPairsSymbols = []
-        
-        self.Thermometers = []
-        
-        self.OddEvenMap = []
-        
-        self.QuadsIDs = []
-        self.QuadsVals = []
-        
-        self.TopRowNums = []
-        self.BottomRowNums = []
-        self.LeftColumnNums = []
-        self.RightColumnNums = []
-        
-        self.RegionSum = False
-        self.RegionSumMap  = []
-        self.RegionSumSums = []
-        self.RegionSumColours = []
-        
-        self.StarBattlePuzzle = False
-        self.NoriNoriPuzzle = False
-        self.SumpletePuzzle = False
-        self.KakurasuPuzzle = False
-        
-        self.CloneRegionSudoku = False
-        self.CloneRegionsSet1 = []
-        self.CloneRegionsSet2 = []
-        self.CloneRegionColours = []
-        
-        self.MultiAdditionPairsSudoku = False
-        self.MultiAdditionPairsPoints = []
     
     def _load_solver_methods(self):
         """Dynamically load all solver methods from separate files"""

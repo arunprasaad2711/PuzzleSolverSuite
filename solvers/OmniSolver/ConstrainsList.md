@@ -32,25 +32,32 @@ None
 28. Asterisk
 29. Multi AntiSums With Pair Exceptions
 30. Multi AntiRatios With Pair Exceptions
-31. Odd-Even constraint (some cells can be only odd or even)
-32. Sandwich sudoku
-33. Line Differences
-34. Renban Lines
-35. Nabner Lines
-36. German Whispers
-37. Dutch Whispers
-38. Palindrome Lines
-39. Region Sum Lines with and without line uniqueness
-40. RestrictedCells (cells can take only specific given values)
-41. Positive Diagonal
-42. Negative Diagonal
-43. Double Diagonal
-44. Magic Square
-45. Skyscraper
-46. Same set (similar to clones, but positions can vary)
-47. Clones
-48. Hidato - King Mode
-49. Hidato - Knight Mode
+31. Multi AntiDifferences With Pair Exceptions
+32. Odd-Even constraint (some cells can be only odd or even)
+33. Sandwich sudoku
+34. Line Differences
+35. Renban Lines
+36. Nabner Lines
+37. German Whispers
+38. Dutch Whispers
+39. Palindrome Lines
+40. Region Sum Lines with and without line uniqueness
+41. RestrictedCells (cells can take only specific given values)
+42. Positive Diagonal
+43. Negative Diagonal
+44. Double Diagonal
+45. Magic Square
+46. Skyscraper
+47. Same set (similar to clones, but positions can vary)
+48. Clones
+49. Hidato - King Mode
+50. Hidato - Knight Mode
+51. Row Count
+52. Column count
+53. Grid count
+54. Star battle adjacency
+55. Star battle (row + column + grid count + adjacency)
+56. Starstruck/Queens/Kings - Star Battle variant with 1 star
 
 ## Yet To Migrate
 1. Two-digit Arrow Sum (Need to check if this is working)
@@ -62,22 +69,17 @@ None
 7. Warping Renban Lines
 8. Orthogonal non-consecutive (some cells)
 9. Diagonal non-consecutive (some cells)
-10. Row Count
-11. Column count
-12. Grid count
-13. Nori-Nori adjacency
-14. Nori-Nori (grid count + nori-nori adjacency)
-15. Star battle adjacency
-16. Star battle (row + column + grid count + adjacency)
-17. One-up row constraints
-18. One-up column constraints
-19. Classic One-up (Row + Column)
-20. Multi addition pairs
-21. Ratio pairs or difference pairs
-22. Region sum sudoku
-23. Sumplete row
-24. Sumplete column
-25. Classic Sumplete (row + column)
+10. Nori-Nori adjacency
+11. Nori-Nori (grid count + nori-nori adjacency)
+12. One-up row constraints
+13. One-up column constraints
+14. Classic One-up (Row + Column)
+15. Multi addition pairs
+16. Ratio pairs or difference pairs
+17. Region sum sudoku
+18. Sumplete row
+19. Sumplete column
+20. Classic Sumplete (row + column)
 
 ## To Create - On Priority Pipeline
 * Modular Lines
@@ -118,6 +120,10 @@ None
 30. Outside Parity
 31. X-sums
 32. Serbian Frame
+
+## Interesting variants - May not be solvable
+1. LITS and Star battle eg: [LITS Battle](https://www.youtube.com/watch?v=aCEXiE9tYGg)
+2. Pentomino Star battle eg: [Pentominous Star Battle](https://www.youtube.com/watch?v=7EI9nYuqsYo)
 
 ## Extremely difficult to create
 1. Hidden Clone eg: [Hidden Clones](https://www.youtube.com/watch?v=8s7LPmQyWHA)

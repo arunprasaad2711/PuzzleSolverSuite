@@ -15,8 +15,8 @@ class SudokuGrid(Static):
     CELL_W = 7
 
     # Core grid size
-    NRows = 10
-    NCols = 10
+    NRows = 18
+    NCols = 18
 
     # For Sudoku grid
     # For a 4x4 grid: box_rows=2, box_cols=2

@@ -1,3 +1,5 @@
+import numpy as np
+
 def RowCountConstraint(self, count=2):
         
     '''
@@ -37,27 +39,29 @@ def ClassicNoriNoriConstraints(self):
     
     print("NoriNori Constraints Added!")
 
-def ClassicStarBattleConstraints(self, stars=2):
+def ClassicStarBattleConstraints(self, GridMap, stars=2):
     
     self.RowCountConstraint(stars)
     self.ColCountConstraint(stars)
-    self.GridCountConstraints(stars)
+    self.GridCountConstraints(GridMap, stars)
     self.StarBattleAdjacencyConstraint()
     
     print("Star Battle Constraints Added!")
 
-def GridCountConstraints(self, count=2):
+def GridCountConstraints(self, GridMap, count=2):
     
     '''
     Grid/Region Constraints. Every Region can only have x Norinori/Starbattle cells.
     '''
+
+    GridMap = np.array(GridMap, dtype=np.int32)
     
     # First, find all the unique entries in the SubGridMap
     UIDs = set()
     for i in range(self.Rows):
         for j in range(self.Cols):
-            if self.InputMatrix[i, j] not in UIDs:
-                UIDs.add(self.InputMatrix[i, j])
+            if GridMap[i, j] not in UIDs:
+                UIDs.add(GridMap[i, j])
     
     # Remove 0 so that cells with 0 are not clubbed together as another group
     if 0 in UIDs:
@@ -65,11 +69,9 @@ def GridCountConstraints(self, count=2):
     
     for entry in UIDs:
         subgrid = [ self.Cells[i][j] for i in range(self.Rows) 
-                    for j in range(self.Cols) if entry == self.InputMatrix[i, j]]
+                    for j in range(self.Cols) if entry == GridMap[i, j]]
         self.Model.Add(sum(subgrid) == count)
         print(f"Custom Subgrid with UID {entry} added.")
-    
-    self.GridBoxBoundaryMaker()
 
 def NoriNoriAdjacencyConstraint(self):
     
