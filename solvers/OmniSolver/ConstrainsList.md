@@ -181,3 +181,12 @@ None
 10. [Pathologic](https://www.youtube.com/@jchaffer)
 11. [Lucian's Place](https://www.youtube.com/@luciansrule)
 12. [Zetamath does puzzles](https://www.youtube.com/@zetamathdoespuzzles/)
+
+## Important GitHub Repos
+1. [Puzzlekit](https://github.com/SmilingWayne/puzzlekit/tree/main) by Smiling Wayne
+Literally has 100+ solvers for hundreds of puzzles made using OR-Tools. It is made as a library in pypi.
+Prime source for checking constraints and learning incase some puzzle framing is hard.
+
+2. [SudokuSolver](https://github.com/dclamage/SudokuSolver) by David Clamage, aka Rangsk
+This is a C# solver made probably from first principles. It directly connects to F-puzzles using scripts
+that are run through Tampermonkey. Worth looking into the different types the solver handles.
