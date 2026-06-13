@@ -200,6 +200,17 @@ class Omni(BaseModel):
     HidatoRuleMode: Literal["King", "Knight"] = "King"
 
     # Star Battle Constraints. Also applicable for Starstruck/Queens/Kings
+    # by changing the number of stars
     StarBattle: bool = False
     StarsPerRegion: int = 2
     StarBattleGridMap: list[list[int]] = Field(default_factory=list)
+
+    # Nori-Nori Constraints.
+    NoriNori: bool = False
+    NoriNoriPerRegion: int = 2
+    NoriNoriGridMap: list[list[int]] = Field(default_factory=list)
+
+    # MineSweeper Constraints.
+    MineSweeper: bool = False
+    MineSweeperNeighbourMode: Literal["King", "Knight", "Orthogonal", "Diagonal"] = "King"
+    MineSweeperGridMap: list[list[int]] = Field(default_factory=list)

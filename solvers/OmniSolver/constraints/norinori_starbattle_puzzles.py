@@ -32,9 +32,9 @@ def ColCountConstraint(self, count=2):
         
         self.Model.Add(sum(ColCollection) == count)
 
-def ClassicNoriNoriConstraints(self):
+def ClassicNoriNoriConstraints(self, GridMap, stars=2):
     
-    self.GridCountConstraints()
+    self.GridCountConstraints(GridMap, stars)
     self.NoriNoriAdjacencyConstraint()
     
     print("NoriNori Constraints Added!")

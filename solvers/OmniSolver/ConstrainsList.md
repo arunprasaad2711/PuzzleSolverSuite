@@ -58,6 +58,9 @@ None
 54. Star battle adjacency
 55. Star battle (row + column + grid count + adjacency)
 56. Starstruck/Queens/Kings - Star Battle variant with 1 star
+57. Nori-Nori adjacency
+58. Nori-Nori (grid count + nori-nori adjacency)
+59. Mine Sweeper (King/Knight/Orthogonal/Diagonal Mode)
 
 ## Yet To Migrate
 1. Two-digit Arrow Sum (Need to check if this is working)
@@ -69,17 +72,15 @@ None
 7. Warping Renban Lines
 8. Orthogonal non-consecutive (some cells)
 9. Diagonal non-consecutive (some cells)
-10. Nori-Nori adjacency
-11. Nori-Nori (grid count + nori-nori adjacency)
-12. One-up row constraints
-13. One-up column constraints
-14. Classic One-up (Row + Column)
-15. Multi addition pairs
-16. Ratio pairs or difference pairs
-17. Region sum sudoku
-18. Sumplete row
-19. Sumplete column
-20. Classic Sumplete (row + column)
+10. One-up row constraints
+11. One-up column constraints
+12. Classic One-up (Row + Column)
+13. Multi addition pairs
+14. Ratio pairs or difference pairs
+15. Region sum sudoku
+16. Sumplete row
+17. Sumplete column
+18. Classic Sumplete (row + column)
 
 ## To Create - On Priority Pipeline
 * Modular Lines
@@ -135,23 +136,31 @@ None
 7. 2 Truths and a lie puzzles
 8. Chaos puzzles (in 11x11 grid, create 9 3x3 non-overlapping boxes with numbers 1-9. Rows and columns can have blanks, but no repeated digits.)
 
-## Puzzles to achieve - On the list
+## Puzzles to Try - On the list - May need separate solver
 1. Akari
 2. Stostone
 3. Battle Ship
 4. Numberlink
-5. Hidato
-6. Slitherlink (doubtful)
-7. Fillomino (doubtful)
-8. Mochikoro
-9. Hitori
-10. Kakuro
-11. Nurikabe
-12. Nonogram
-13. Tents and Trees
-14. Starstruck
-15. Aqre
-16. Stich puzzle
+5. Putteria
+6. Aquarium
+7. Country Road
+8. Slitherlink (doubtful)
+9. Fillomino (doubtful)
+10. Mochikoro
+11. Hitori
+12. Kakuro
+13. Nurikabe
+14. Nonogram
+15. Tents and Trees
+16. Starstruck
+17. Aqre
+18. Stich puzzle
+19. Heyawake
+20. Easy as ABC
+21. Balanced Loop
+22. Tapa
+23. LITS
+24. Yajalin
 
 ## Blogs/Websites
 1. [Puzzle Parasite](https://puzzleparasite.blogspot.com/) - by Bram de Laat
@@ -171,3 +180,4 @@ None
 9. [Steven Scott](https://www.youtube.com/@StevenScottAnderson)
 10. [Pathologic](https://www.youtube.com/@jchaffer)
 11. [Lucian's Place](https://www.youtube.com/@luciansrule)
+12. [Zetamath does puzzles](https://www.youtube.com/@zetamathdoespuzzles/)

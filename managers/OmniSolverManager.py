@@ -188,6 +188,12 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.StarBattle:
         Solver.ClassicStarBattleConstraints(puzzle.StarBattleGridMap, puzzle.StarsPerRegion)
     
+    if puzzle.NoriNori:
+        Solver.ClassicNoriNoriConstraints(puzzle.NoriNoriGridMap, puzzle.NoriNoriPerRegion)
+    
+    if puzzle.MineSweeper:
+        Solver.ClassicMineSweeperConstraints(puzzle.MineSweeperGridMap, puzzle.MineSweeperNeighbourMode)
+
     if puzzle.PrintConstraints:
         with open("output.txt", "w") as f:
             # print(Solver.Model, file=f)
