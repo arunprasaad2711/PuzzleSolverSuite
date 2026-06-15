@@ -16,7 +16,6 @@
             [40, 39, 38, 36, 0, 18, 17, 0, 54]
         ],
 
-    "Sudoku": false,
     "LowerBound": 1,
     "UpperBound": 81,
     "Hidato": true,

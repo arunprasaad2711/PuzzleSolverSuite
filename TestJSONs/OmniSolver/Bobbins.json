@@ -4,6 +4,8 @@
     "author":"Will Power",
     "PuzzleTestStatus":"Verified",
 
+    "Sudoku": true,
+
     "Matrix": [
                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
                 [0, 0, 0, 0, 0, 0, 0, 0, 0],

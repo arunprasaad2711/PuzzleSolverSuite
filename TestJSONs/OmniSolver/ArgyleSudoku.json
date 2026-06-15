@@ -9,6 +9,7 @@
               [0, 0, 0, 0, 0, 0, 6, 0, 9],
               [0, 0, 0, 0, 0, 2, 0, 0, 0]],
     "ArgyleSudoku": true,
+    "Sudoku": true,
     "url":"https://www.youtube.com/watch?v=VdDaafMnCQ4",
     "title":"Argyle Sudoku",
     "author":"Li Quanzi",

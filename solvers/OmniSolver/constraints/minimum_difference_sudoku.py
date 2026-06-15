@@ -16,7 +16,7 @@ def OrthogonalMinDifferenceConstraints(self, min_diff=2):
                 # Ensure indices are within bounds
                 if 0 <= ni < self.Rows and 0 <= nj < self.Cols:
                     # Enforce the absolute difference condition
-                    abs_diff = self.Model.NewIntVar(0, self.FullOrder - 1, f"orthogonal_abs_diff_{i}_{j}_{ni}_{nj}")
+                    abs_diff = self.Model.NewIntVar(0, self.UpperBound - 1, f"orthogonal_abs_diff_{i}_{j}_{ni}_{nj}")
                     self.Model.AddAbsEquality(abs_diff, self.Cells[i][j] - self.Cells[ni][nj])
                     self.Model.Add(abs_diff >= min_diff)
 
@@ -39,7 +39,7 @@ def DiagonalMinDifferenceConstraints(self, min_diff=2):
                 # Ensure indices are within bounds
                 if 0 <= ni < self.Rows and 0 <= nj < self.Cols:
                     # Enforce the absolute difference condition
-                    abs_diff = self.Model.NewIntVar(0, self.FullOrder - 1, f"diagonal_abs_diff_{i}_{j}_{ni}_{nj}")
+                    abs_diff = self.Model.NewIntVar(0, self.UpperBound - 1, f"diagonal_abs_diff_{i}_{j}_{ni}_{nj}")
                     self.Model.AddAbsEquality(abs_diff, self.Cells[i][j] - self.Cells[ni][nj])
                     self.Model.Add(abs_diff >= min_diff)
 

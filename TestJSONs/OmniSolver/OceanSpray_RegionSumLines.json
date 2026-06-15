@@ -13,6 +13,7 @@
                [0, 0, 0, 0, 0, 0, 0, 0, 0],
                [0, 0, 0, 0, 0, 0, 0, 0, 0],
                [0, 0, 0, 0, 0, 0, 0, 0, 0]],
+    "Sudoku": true,
     
     "RegionSumLinesCondition": true,
     "RegionSumLinesGridMap":   [[ 7,  3,  3,  0,  1,  1,  2,  0,  0],

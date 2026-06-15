@@ -14,6 +14,7 @@
     "author":"Aad van de Wetering",
     "PuzzleTestStatus": "Verified",
 
+    "Sudoku": true,
     "AntiKnight": true,
 
     "ThermometerConstraint": true,

@@ -8,6 +8,7 @@
               [0, 0, 0, 0, 0, 0, 0, 0, 0],
               [0, 0, 0, 0, 0, 0, 0, 0, 0],
               [0, 0, 0, 0, 0, 0, 0, 0, 0]],
+    "Sudoku": true,
     "AntiKnight": true,
     "DiagonalMinDifference": true,
     "DiagonalMinDifferenceValue": 2,

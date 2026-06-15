@@ -103,7 +103,7 @@ def GenerateClassicSubgridMap(self):
         for j in range(self.Cols):
             subgrid_row = i // self.OrderRow
             subgrid_col = j // self.OrderCol
-            subgrid_id = subgrid_row * (self.FullOrder // self.OrderCol) + subgrid_col + 1
+            subgrid_id = subgrid_row * (self.Rows // self.OrderCol) + subgrid_col + 1
             SubGridMap[i, j] = subgrid_id
     
     return SubGridMap

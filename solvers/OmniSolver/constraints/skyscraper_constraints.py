@@ -25,7 +25,7 @@ def SkyscraperConstraints(self, LeftSkyScrapers=None, RightSkyScrapers=None, Top
                 line = line[::-1]
 
             size = len(line)
-            MaxDigit = self.FullOrder
+            MaxDigit = self.UpperBound
 
             # Constraint 1: Upper bound on the first cell
             self.Model.Add(line[0] <= MaxDigit - v + 1)

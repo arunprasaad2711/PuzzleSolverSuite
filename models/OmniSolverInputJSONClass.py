@@ -5,6 +5,7 @@ class Omni(BaseModel):
 
     SingleSolution: bool = False
     PrintConstraints: bool = False
+    NoOfSearchers: int = 1
     
     # Basic Sudoku Puzzle order
     OrderRow: int = 3
@@ -27,7 +28,7 @@ class Omni(BaseModel):
     SubGridSums: Optional[list] = Field(default_factory=list)
     
     # Puzzle Booleans
-    Sudoku: bool = True
+    Sudoku: bool = False
     IrregularSudoku: bool = False
     
     # Chess Constraints

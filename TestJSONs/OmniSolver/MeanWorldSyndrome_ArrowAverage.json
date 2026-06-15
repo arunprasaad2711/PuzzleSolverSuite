@@ -13,6 +13,8 @@
     "author":"Miky",
     "PuzzleTestStatus": "Verified",
 
+    "Sudoku": true,
+
     "ArrowAverageSudoku": true,
     "ArrowAverageSudokuCircles": [
         [0, 3],

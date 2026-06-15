@@ -14,6 +14,7 @@
     "author":"Eric Fox",
     "PuzzleTestStatus": "Verified",
 
+    "Sudoku": true,
     "TLBR_Diagonal": true,
     "TRBL_Diagonal": true,
 

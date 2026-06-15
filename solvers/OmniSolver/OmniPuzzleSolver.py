@@ -4,39 +4,30 @@ import numpy as np
 import sys
 from pathlib import Path
 import importlib.util
-from models.OmniSolverInputJSONClass import Omni
 
 class OmniPuzzleSolver:
     
-    def __init__(self, Data: Omni, SolversDirectory="solvers/OmniSolver/constraints"):
+    def __init__(self, InputMatrix,
+                 OrderRow=3, OrderCol=3, ZeroMaskingDigit=-1,
+                 LowerBound=1, UpperBound=9, NoOfSearchers=1,
+                 SolversDirectory="solvers/OmniSolver/constraints"):
         
         # print(f"Initializing OmniPuzzleSolver with data {Data}")
         print(f"Initializing OmniPuzzleSolver Data")
         
         # Sudoku Puzzle Variables
-        self.OrderRow = Data.OrderRow
-        self.OrderCol = Data.OrderCol
+        self.OrderRow = OrderRow
+        self.OrderCol = OrderCol
 
         # A variable to assign cell values zero and not
         # treat zero as a blank unassigned entry
-        self.ZeroMaskingDigit = Data.ZeroMaskingDigit
+        self.ZeroMaskingDigit = ZeroMaskingDigit
         
         # Input Matrix
-        self.InputMatrix = np.array(Data.Matrix, dtype=np.int32)
+        self.InputMatrix = np.array(InputMatrix, dtype=np.int32)
         
         self.Rows, self.Cols = self.InputMatrix.shape
-        self.FullOrder = max(self.Rows, self.Cols)
-        
-        # number of unique numbers
-        self.nuns = self.FullOrder
-        
-        # Sum of all the numbers in a row/col/subgrid
-        self.SumOfNumbers = self.FullOrder * (self.FullOrder + 1) // 2
-        
-        # Variables for formatting output
-        self.max_digits = len(str(self.nuns))
-        self.border = "-"*(self.nuns*(self.max_digits + 1) + 2*self.OrderRow + 1)
-        
+                
         # Solution Matrix
         self.OutputMatrix = np.zeros_like(self.InputMatrix, dtype=np.int32)
         
@@ -46,11 +37,11 @@ class OmniPuzzleSolver:
         # CP Solver
         self.Solver = cp_model.CpSolver()
         
-        self.Solver.parameters.num_search_workers = 1
+        self.Solver.parameters.num_search_workers = NoOfSearchers
         # self.Solver.parameters.log_search_progress = True
         
-        self.LowerBound = Data.LowerBound if Data.LowerBound is not None else 1
-        self.UpperBound = Data.UpperBound if Data.UpperBound is not None else self.FullOrder
+        self.LowerBound = LowerBound
+        self.UpperBound = UpperBound
         
         # Create all the variables for the sudoku and assign possible value
         self.Cells = [ 
@@ -63,6 +54,9 @@ class OmniPuzzleSolver:
         
         self.solvers_directory = Path(SolversDirectory)
         self._load_solver_methods()
+
+        # Initialize Given Entries post loading all methods
+        self.InitializeGivenEntries()
         
     
     def _load_solver_methods(self):

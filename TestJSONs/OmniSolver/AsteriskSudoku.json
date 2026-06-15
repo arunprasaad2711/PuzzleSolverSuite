@@ -9,6 +9,7 @@
               [6, 0, 9, 0, 0, 0, 8, 0, 3],
               [0, 3, 0, 0, 0, 0, 0, 7, 0]],
     "AsteriskSudoku": true,
+    "Sudoku": true,
     "url":"https://www.youtube.com/watch?v=ap0uzsdH55E",
     "title":null,
     "author":null,

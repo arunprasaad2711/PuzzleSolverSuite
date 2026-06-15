@@ -12,7 +12,6 @@ def QuadsConstraints(self, QuadsIDs, QuadsVals):
         I, J = quad
         # Create all the cells of the quaduple
         quads = [(I, J), (I, J + 1), (I + 1, J), (I + 1, J + 1)]
-        self.QuadsIDs.append(quads)
         
         for k, val in enumerate(vals):
             ValInQuad_list = []

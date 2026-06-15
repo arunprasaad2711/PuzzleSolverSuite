@@ -9,6 +9,7 @@
               [0, 0, 0, 0, 0, 0, 0, 0, 0],
               [0, 0, 0, 0, 0, 0, 0, 0, 0]],
 
+    "Sudoku": true,
     "SandWichSudoku": true,
     "SandWichRowSums": [4, 33, 20, 17, 26, 10, 16, 24, 0],
     "SandWichColSums": [8, 4, 17, 35, 14, 13, 3, 10, 25],

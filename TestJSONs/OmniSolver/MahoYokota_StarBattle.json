@@ -21,7 +21,6 @@
                          [  8,  7,  7,  7,  4,  4,  4,  5,  9, 10],
                          [  8,  7,  8,  7,  9,  9,  9,  9,  9, 10],
                          [  8,  8,  8,  9,  9, 10, 10, 10, 10, 10]],
-    "Sudoku": false,
     "StarBattle": true,
     "StarsPerRegion": 2,
     "LowerBound": 0,

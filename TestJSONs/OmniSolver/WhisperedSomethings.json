@@ -10,6 +10,7 @@
                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
                 [0, 0, 0, 0, 0, 0, 0, 0, 0]
             ],
+    "Sudoku": true,
     "RegionSumLinesCondition": true,
     "RegionSumLinesGridMap":[
                                 [0, 0, 0, 1, 0, 0, 2, 2, 0],

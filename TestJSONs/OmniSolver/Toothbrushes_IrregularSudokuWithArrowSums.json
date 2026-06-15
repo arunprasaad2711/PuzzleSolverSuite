@@ -17,7 +17,6 @@
                                 [6, 6, 8, 8, 8, 8, 7, 7, 7],
                                 [6, 6, 8, 9, 9, 9, 9, 9, 9],
                                 [6, 6, 8, 8, 8, 8, 9, 9, 9]],
-    "Sudoku": false,
     "IrregularSudoku": true,
     "ArrowSumSudoku": true,
     "ArrowSumSudokuCircles": [

@@ -5,10 +5,11 @@ def OmniSolverManager(puzzle: Omni):
     
     # print(f"Inside OmniSolverManager with data {puzzle}")
     
-    Solver = OmniPuzzleSolver(puzzle)
-
-    if puzzle.Matrix:
-        Solver.InitializeGivenEntries()
+    Solver = OmniPuzzleSolver(puzzle.Matrix,
+            puzzle.OrderRow, puzzle.OrderCol,
+            puzzle.ZeroMaskingDigit, 
+            puzzle.LowerBound, puzzle.UpperBound,
+            puzzle.NoOfSearchers)
     
     if puzzle.Sudoku:
         Solver.ClassicSudokuConstraints()
