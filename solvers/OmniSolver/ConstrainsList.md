@@ -61,6 +61,7 @@ None
 57. Nori-Nori adjacency
 58. Nori-Nori (grid count + nori-nori adjacency)
 59. Mine Sweeper (King/Knight/Orthogonal/Diagonal Mode)
+60. Tents
 
 ## Yet To Migrate
 1. Two-digit Arrow Sum (Need to check if this is working)
@@ -151,16 +152,15 @@ None
 12. Kakuro
 13. Nurikabe
 14. Nonogram
-15. Tents and Trees
-16. Starstruck
-17. Aqre
-18. Stich puzzle
-19. Heyawake
-20. Easy as ABC
-21. Balanced Loop
-22. Tapa
-23. LITS
-24. Yajalin
+15. Starstruck
+16. Aqre
+17. Stich puzzle
+18. Heyawake
+19. Easy as ABC
+20. Balanced Loop
+21. Tapa
+22. LITS
+23. Yajalin
 
 ## Blogs/Websites
 1. [Puzzle Parasite](https://puzzleparasite.blogspot.com/) - by Bram de Laat

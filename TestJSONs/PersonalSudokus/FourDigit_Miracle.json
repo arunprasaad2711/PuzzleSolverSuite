@@ -9,6 +9,7 @@
                [0, 0, 0, 0, 0, 0, 0, 0, 0],
                [0, 0, 0, 0, 2, 0, 0, 0, 0]],
     
+    "Sudoku": true,
     "AntiKnight": true,
     "AntiKing": true,
     "OrthogonalNonConsec": true,

@@ -194,6 +194,10 @@ def OmniSolverManager(puzzle: Omni):
     
     if puzzle.MineSweeper:
         Solver.ClassicMineSweeperConstraints(puzzle.MineSweeperGridMap, puzzle.MineSweeperNeighbourMode)
+    
+    if puzzle.TentsPuzzle:
+        Solver.ClassicTentsConstraints(puzzle.TentsTreeMap, puzzle.TentsAlongRows,
+                                       puzzle.TentsAlongCols)
 
     if puzzle.PrintConstraints:
         with open("output.txt", "w") as f:

@@ -1,0 +1,3954 @@
+linear {
+  vars: 0
+  vars: 1
+  vars: 2
+  vars: 3
+  vars: 4
+  vars: 5
+  vars: 6
+  vars: 7
+  vars: 8
+  vars: 9
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 2
+  domain: 2
+}
+linear {
+  vars: 10
+  vars: 11
+  vars: 12
+  vars: 13
+  vars: 14
+  vars: 15
+  vars: 16
+  vars: 17
+  vars: 18
+  vars: 19
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 3
+  domain: 3
+}
+linear {
+  vars: 20
+  vars: 21
+  vars: 22
+  vars: 23
+  vars: 24
+  vars: 25
+  vars: 26
+  vars: 27
+  vars: 28
+  vars: 29
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+linear {
+  vars: 30
+  vars: 31
+  vars: 32
+  vars: 33
+  vars: 34
+  vars: 35
+  vars: 36
+  vars: 37
+  vars: 38
+  vars: 39
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 2
+  domain: 2
+}
+linear {
+  vars: 40
+  vars: 41
+  vars: 42
+  vars: 43
+  vars: 44
+  vars: 45
+  vars: 46
+  vars: 47
+  vars: 48
+  vars: 49
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 3
+  domain: 3
+}
+linear {
+  vars: 50
+  vars: 51
+  vars: 52
+  vars: 53
+  vars: 54
+  vars: 55
+  vars: 56
+  vars: 57
+  vars: 58
+  vars: 59
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 60
+  vars: 61
+  vars: 62
+  vars: 63
+  vars: 64
+  vars: 65
+  vars: 66
+  vars: 67
+  vars: 68
+  vars: 69
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 4
+  domain: 4
+}
+linear {
+  vars: 70
+  vars: 71
+  vars: 72
+  vars: 73
+  vars: 74
+  vars: 75
+  vars: 76
+  vars: 77
+  vars: 78
+  vars: 79
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 80
+  vars: 81
+  vars: 82
+  vars: 83
+  vars: 84
+  vars: 85
+  vars: 86
+  vars: 87
+  vars: 88
+  vars: 89
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+linear {
+  vars: 90
+  vars: 91
+  vars: 92
+  vars: 93
+  vars: 94
+  vars: 95
+  vars: 96
+  vars: 97
+  vars: 98
+  vars: 99
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 4
+  domain: 4
+}
+linear {
+  vars: 0
+  vars: 10
+  vars: 20
+  vars: 30
+  vars: 40
+  vars: 50
+  vars: 60
+  vars: 70
+  vars: 80
+  vars: 90
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 4
+  domain: 4
+}
+linear {
+  vars: 1
+  vars: 11
+  vars: 21
+  vars: 31
+  vars: 41
+  vars: 51
+  vars: 61
+  vars: 71
+  vars: 81
+  vars: 91
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 2
+  vars: 12
+  vars: 22
+  vars: 32
+  vars: 42
+  vars: 52
+  vars: 62
+  vars: 72
+  vars: 82
+  vars: 92
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 2
+  domain: 2
+}
+linear {
+  vars: 3
+  vars: 13
+  vars: 23
+  vars: 33
+  vars: 43
+  vars: 53
+  vars: 63
+  vars: 73
+  vars: 83
+  vars: 93
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 2
+  domain: 2
+}
+linear {
+  vars: 4
+  vars: 14
+  vars: 24
+  vars: 34
+  vars: 44
+  vars: 54
+  vars: 64
+  vars: 74
+  vars: 84
+  vars: 94
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 2
+  domain: 2
+}
+linear {
+  vars: 5
+  vars: 15
+  vars: 25
+  vars: 35
+  vars: 45
+  vars: 55
+  vars: 65
+  vars: 75
+  vars: 85
+  vars: 95
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 2
+  domain: 2
+}
+linear {
+  vars: 6
+  vars: 16
+  vars: 26
+  vars: 36
+  vars: 46
+  vars: 56
+  vars: 66
+  vars: 76
+  vars: 86
+  vars: 96
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+linear {
+  vars: 7
+  vars: 17
+  vars: 27
+  vars: 37
+  vars: 47
+  vars: 57
+  vars: 67
+  vars: 77
+  vars: 87
+  vars: 97
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 2
+  domain: 2
+}
+linear {
+  vars: 8
+  vars: 18
+  vars: 28
+  vars: 38
+  vars: 48
+  vars: 58
+  vars: 68
+  vars: 78
+  vars: 88
+  vars: 98
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 2
+  domain: 2
+}
+linear {
+  vars: 9
+  vars: 19
+  vars: 29
+  vars: 39
+  vars: 49
+  vars: 59
+  vars: 69
+  vars: 79
+  vars: 89
+  vars: 99
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 3
+  domain: 3
+}
+linear {
+  vars: 0
+  vars: 1
+  vars: 2
+  vars: 3
+  vars: 4
+  vars: 5
+  vars: 6
+  vars: 7
+  vars: 8
+  vars: 9
+  vars: 10
+  vars: 11
+  vars: 12
+  vars: 13
+  vars: 14
+  vars: 15
+  vars: 16
+  vars: 17
+  vars: 18
+  vars: 19
+  vars: 20
+  vars: 21
+  vars: 22
+  vars: 23
+  vars: 24
+  vars: 25
+  vars: 26
+  vars: 27
+  vars: 28
+  vars: 29
+  vars: 30
+  vars: 31
+  vars: 32
+  vars: 33
+  vars: 34
+  vars: 35
+  vars: 36
+  vars: 37
+  vars: 38
+  vars: 39
+  vars: 40
+  vars: 41
+  vars: 42
+  vars: 43
+  vars: 44
+  vars: 45
+  vars: 46
+  vars: 47
+  vars: 48
+  vars: 49
+  vars: 50
+  vars: 51
+  vars: 52
+  vars: 53
+  vars: 54
+  vars: 55
+  vars: 56
+  vars: 57
+  vars: 58
+  vars: 59
+  vars: 60
+  vars: 61
+  vars: 62
+  vars: 63
+  vars: 64
+  vars: 65
+  vars: 66
+  vars: 67
+  vars: 68
+  vars: 69
+  vars: 70
+  vars: 71
+  vars: 72
+  vars: 73
+  vars: 74
+  vars: 75
+  vars: 76
+  vars: 77
+  vars: 78
+  vars: 79
+  vars: 80
+  vars: 81
+  vars: 82
+  vars: 83
+  vars: 84
+  vars: 85
+  vars: 86
+  vars: 87
+  vars: 88
+  vars: 89
+  vars: 90
+  vars: 91
+  vars: 92
+  vars: 93
+  vars: 94
+  vars: 95
+  vars: 96
+  vars: 97
+  vars: 98
+  vars: 99
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 20
+  domain: 20
+}
+linear {
+  vars: 0
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 100
+linear {
+  vars: 0
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -101
+linear {
+  vars: 0
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 100
+linear {
+  vars: 1
+  vars: 10
+  vars: 11
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 101
+linear {
+  vars: 1
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -102
+linear {
+  vars: 1
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 101
+linear {
+  vars: 0
+  vars: 2
+  vars: 10
+  vars: 11
+  vars: 12
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 102
+linear {
+  vars: 2
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -103
+linear {
+  vars: 2
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 102
+linear {
+  vars: 1
+  vars: 3
+  vars: 11
+  vars: 12
+  vars: 13
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 3
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 103
+linear {
+  vars: 3
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -104
+linear {
+  vars: 3
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 103
+linear {
+  vars: 2
+  vars: 4
+  vars: 12
+  vars: 13
+  vars: 14
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 104
+linear {
+  vars: 4
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -105
+linear {
+  vars: 4
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 104
+linear {
+  vars: 3
+  vars: 5
+  vars: 13
+  vars: 14
+  vars: 15
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 105
+linear {
+  vars: 5
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -106
+linear {
+  vars: 5
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 105
+linear {
+  vars: 4
+  vars: 6
+  vars: 14
+  vars: 15
+  vars: 16
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 6
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 5
+  vars: 7
+  vars: 16
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 107
+linear {
+  vars: 7
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -108
+linear {
+  vars: 7
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 107
+linear {
+  vars: 6
+  vars: 8
+  vars: 16
+  vars: 17
+  vars: 18
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 8
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 7
+  vars: 9
+  vars: 18
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 109
+linear {
+  vars: 9
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -110
+linear {
+  vars: 9
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 109
+linear {
+  vars: 8
+  vars: 18
+  vars: 19
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 110
+linear {
+  vars: 10
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -111
+linear {
+  vars: 10
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 110
+linear {
+  vars: 0
+  vars: 1
+  vars: 11
+  vars: 20
+  vars: 21
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 11
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 1
+  vars: 10
+  vars: 21
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+linear {
+  vars: 12
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 2
+  vars: 13
+  vars: 22
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 113
+linear {
+  vars: 13
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -114
+linear {
+  vars: 13
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 113
+linear {
+  vars: 2
+  vars: 3
+  vars: 4
+  vars: 12
+  vars: 14
+  vars: 22
+  vars: 23
+  vars: 24
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 14
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 4
+  vars: 13
+  vars: 15
+  vars: 24
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 115
+linear {
+  vars: 15
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -116
+linear {
+  vars: 15
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 115
+linear {
+  vars: 4
+  vars: 5
+  vars: 6
+  vars: 14
+  vars: 16
+  vars: 24
+  vars: 25
+  vars: 26
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 116
+linear {
+  vars: 16
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -117
+linear {
+  vars: 16
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 116
+linear {
+  vars: 5
+  vars: 6
+  vars: 7
+  vars: 15
+  vars: 17
+  vars: 25
+  vars: 26
+  vars: 27
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 117
+linear {
+  vars: 17
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -118
+linear {
+  vars: 17
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 117
+linear {
+  vars: 6
+  vars: 7
+  vars: 8
+  vars: 16
+  vars: 18
+  vars: 26
+  vars: 27
+  vars: 28
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 118
+linear {
+  vars: 18
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -119
+linear {
+  vars: 18
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 118
+linear {
+  vars: 7
+  vars: 8
+  vars: 9
+  vars: 17
+  vars: 19
+  vars: 27
+  vars: 28
+  vars: 29
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 19
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 119
+linear {
+  vars: 19
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -120
+linear {
+  vars: 19
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 119
+linear {
+  vars: 8
+  vars: 9
+  vars: 18
+  vars: 28
+  vars: 29
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 20
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 120
+linear {
+  vars: 20
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -121
+linear {
+  vars: 20
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 120
+linear {
+  vars: 10
+  vars: 11
+  vars: 21
+  vars: 30
+  vars: 31
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 121
+linear {
+  vars: 21
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -122
+linear {
+  vars: 21
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 121
+linear {
+  vars: 10
+  vars: 11
+  vars: 12
+  vars: 20
+  vars: 22
+  vars: 30
+  vars: 31
+  vars: 32
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 122
+linear {
+  vars: 22
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -123
+linear {
+  vars: 22
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 122
+linear {
+  vars: 11
+  vars: 12
+  vars: 13
+  vars: 21
+  vars: 23
+  vars: 31
+  vars: 32
+  vars: 33
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 23
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 123
+linear {
+  vars: 23
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -124
+linear {
+  vars: 23
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 123
+linear {
+  vars: 12
+  vars: 13
+  vars: 14
+  vars: 22
+  vars: 24
+  vars: 32
+  vars: 33
+  vars: 34
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 124
+linear {
+  vars: 24
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -125
+linear {
+  vars: 24
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 124
+linear {
+  vars: 13
+  vars: 14
+  vars: 15
+  vars: 23
+  vars: 25
+  vars: 33
+  vars: 34
+  vars: 35
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 25
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 125
+linear {
+  vars: 25
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -126
+linear {
+  vars: 25
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 125
+linear {
+  vars: 14
+  vars: 15
+  vars: 16
+  vars: 24
+  vars: 26
+  vars: 34
+  vars: 35
+  vars: 36
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 126
+linear {
+  vars: 26
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -127
+linear {
+  vars: 26
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 126
+linear {
+  vars: 15
+  vars: 16
+  vars: 17
+  vars: 25
+  vars: 27
+  vars: 35
+  vars: 36
+  vars: 37
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 27
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 17
+  vars: 26
+  vars: 28
+  vars: 37
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 128
+linear {
+  vars: 28
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -129
+linear {
+  vars: 28
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 128
+linear {
+  vars: 17
+  vars: 18
+  vars: 19
+  vars: 27
+  vars: 29
+  vars: 37
+  vars: 38
+  vars: 39
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 129
+linear {
+  vars: 29
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -130
+linear {
+  vars: 29
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 129
+linear {
+  vars: 18
+  vars: 19
+  vars: 28
+  vars: 38
+  vars: 39
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 130
+linear {
+  vars: 30
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -131
+linear {
+  vars: 30
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 130
+linear {
+  vars: 20
+  vars: 21
+  vars: 31
+  vars: 40
+  vars: 41
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 31
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 21
+  vars: 30
+  vars: 32
+  vars: 41
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 132
+linear {
+  vars: 32
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -133
+linear {
+  vars: 32
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 132
+linear {
+  vars: 21
+  vars: 22
+  vars: 23
+  vars: 31
+  vars: 33
+  vars: 41
+  vars: 42
+  vars: 43
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 33
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 133
+linear {
+  vars: 33
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -134
+linear {
+  vars: 33
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 133
+linear {
+  vars: 22
+  vars: 23
+  vars: 24
+  vars: 32
+  vars: 34
+  vars: 42
+  vars: 43
+  vars: 44
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 34
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 134
+linear {
+  vars: 34
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -135
+linear {
+  vars: 34
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 134
+linear {
+  vars: 23
+  vars: 24
+  vars: 25
+  vars: 33
+  vars: 35
+  vars: 43
+  vars: 44
+  vars: 45
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 135
+linear {
+  vars: 35
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -136
+linear {
+  vars: 35
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 135
+linear {
+  vars: 24
+  vars: 25
+  vars: 26
+  vars: 34
+  vars: 36
+  vars: 44
+  vars: 45
+  vars: 46
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 36
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 136
+linear {
+  vars: 36
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -137
+linear {
+  vars: 36
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 136
+linear {
+  vars: 25
+  vars: 26
+  vars: 27
+  vars: 35
+  vars: 37
+  vars: 45
+  vars: 46
+  vars: 47
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 137
+linear {
+  vars: 37
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -138
+linear {
+  vars: 37
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 137
+linear {
+  vars: 26
+  vars: 27
+  vars: 28
+  vars: 36
+  vars: 38
+  vars: 46
+  vars: 47
+  vars: 48
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 138
+linear {
+  vars: 38
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -139
+linear {
+  vars: 38
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 138
+linear {
+  vars: 27
+  vars: 28
+  vars: 29
+  vars: 37
+  vars: 39
+  vars: 47
+  vars: 48
+  vars: 49
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 39
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 29
+  vars: 38
+  vars: 49
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+linear {
+  vars: 40
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 30
+  vars: 41
+  vars: 50
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 141
+linear {
+  vars: 41
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -142
+linear {
+  vars: 41
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 141
+linear {
+  vars: 30
+  vars: 31
+  vars: 32
+  vars: 40
+  vars: 42
+  vars: 50
+  vars: 51
+  vars: 52
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 42
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 142
+linear {
+  vars: 42
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -143
+linear {
+  vars: 42
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 142
+linear {
+  vars: 31
+  vars: 32
+  vars: 33
+  vars: 41
+  vars: 43
+  vars: 51
+  vars: 52
+  vars: 53
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 43
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 143
+linear {
+  vars: 43
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -144
+linear {
+  vars: 43
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 143
+linear {
+  vars: 32
+  vars: 33
+  vars: 34
+  vars: 42
+  vars: 44
+  vars: 52
+  vars: 53
+  vars: 54
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 144
+linear {
+  vars: 44
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -145
+linear {
+  vars: 44
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 144
+linear {
+  vars: 33
+  vars: 34
+  vars: 35
+  vars: 43
+  vars: 45
+  vars: 53
+  vars: 54
+  vars: 55
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 45
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 35
+  vars: 44
+  vars: 46
+  vars: 55
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 146
+linear {
+  vars: 46
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -147
+linear {
+  vars: 46
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 146
+linear {
+  vars: 35
+  vars: 36
+  vars: 37
+  vars: 45
+  vars: 47
+  vars: 55
+  vars: 56
+  vars: 57
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 47
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 147
+linear {
+  vars: 47
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -148
+linear {
+  vars: 47
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 147
+linear {
+  vars: 36
+  vars: 37
+  vars: 38
+  vars: 46
+  vars: 48
+  vars: 56
+  vars: 57
+  vars: 58
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 48
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 148
+linear {
+  vars: 48
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -149
+linear {
+  vars: 48
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 148
+linear {
+  vars: 37
+  vars: 38
+  vars: 39
+  vars: 47
+  vars: 49
+  vars: 57
+  vars: 58
+  vars: 59
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 149
+linear {
+  vars: 49
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -150
+linear {
+  vars: 49
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 149
+linear {
+  vars: 38
+  vars: 39
+  vars: 48
+  vars: 58
+  vars: 59
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 150
+linear {
+  vars: 50
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -151
+linear {
+  vars: 50
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 150
+linear {
+  vars: 40
+  vars: 41
+  vars: 51
+  vars: 60
+  vars: 61
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 51
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 151
+linear {
+  vars: 51
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -152
+linear {
+  vars: 51
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 151
+linear {
+  vars: 40
+  vars: 41
+  vars: 42
+  vars: 50
+  vars: 52
+  vars: 60
+  vars: 61
+  vars: 62
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 52
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 152
+linear {
+  vars: 52
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -153
+linear {
+  vars: 52
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 152
+linear {
+  vars: 41
+  vars: 42
+  vars: 43
+  vars: 51
+  vars: 53
+  vars: 61
+  vars: 62
+  vars: 63
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 153
+linear {
+  vars: 53
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -154
+linear {
+  vars: 53
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 153
+linear {
+  vars: 42
+  vars: 43
+  vars: 44
+  vars: 52
+  vars: 54
+  vars: 62
+  vars: 63
+  vars: 64
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 54
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 44
+  vars: 53
+  vars: 55
+  vars: 64
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 155
+linear {
+  vars: 55
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -156
+linear {
+  vars: 55
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 155
+linear {
+  vars: 44
+  vars: 45
+  vars: 46
+  vars: 54
+  vars: 56
+  vars: 64
+  vars: 65
+  vars: 66
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 56
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 156
+linear {
+  vars: 56
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -157
+linear {
+  vars: 56
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 156
+linear {
+  vars: 45
+  vars: 46
+  vars: 47
+  vars: 55
+  vars: 57
+  vars: 65
+  vars: 66
+  vars: 67
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 157
+linear {
+  vars: 57
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -158
+linear {
+  vars: 57
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 157
+linear {
+  vars: 46
+  vars: 47
+  vars: 48
+  vars: 56
+  vars: 58
+  vars: 66
+  vars: 67
+  vars: 68
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 58
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 158
+linear {
+  vars: 58
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -159
+linear {
+  vars: 58
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 158
+linear {
+  vars: 47
+  vars: 48
+  vars: 49
+  vars: 57
+  vars: 59
+  vars: 67
+  vars: 68
+  vars: 69
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 59
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 159
+linear {
+  vars: 59
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -160
+linear {
+  vars: 59
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 159
+linear {
+  vars: 48
+  vars: 49
+  vars: 58
+  vars: 68
+  vars: 69
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 160
+linear {
+  vars: 60
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -161
+linear {
+  vars: 60
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 160
+linear {
+  vars: 50
+  vars: 51
+  vars: 61
+  vars: 70
+  vars: 71
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 61
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 161
+linear {
+  vars: 61
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -162
+linear {
+  vars: 61
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 161
+linear {
+  vars: 50
+  vars: 51
+  vars: 52
+  vars: 60
+  vars: 62
+  vars: 70
+  vars: 71
+  vars: 72
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 62
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 162
+linear {
+  vars: 62
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -163
+linear {
+  vars: 62
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 162
+linear {
+  vars: 51
+  vars: 52
+  vars: 53
+  vars: 61
+  vars: 63
+  vars: 71
+  vars: 72
+  vars: 73
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 163
+linear {
+  vars: 63
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -164
+linear {
+  vars: 63
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 163
+linear {
+  vars: 52
+  vars: 53
+  vars: 54
+  vars: 62
+  vars: 64
+  vars: 72
+  vars: 73
+  vars: 74
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 164
+linear {
+  vars: 64
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -165
+linear {
+  vars: 64
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 164
+linear {
+  vars: 53
+  vars: 54
+  vars: 55
+  vars: 63
+  vars: 65
+  vars: 73
+  vars: 74
+  vars: 75
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 165
+linear {
+  vars: 65
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -166
+linear {
+  vars: 65
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 165
+linear {
+  vars: 54
+  vars: 55
+  vars: 56
+  vars: 64
+  vars: 66
+  vars: 74
+  vars: 75
+  vars: 76
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 166
+linear {
+  vars: 66
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -167
+linear {
+  vars: 66
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 166
+linear {
+  vars: 55
+  vars: 56
+  vars: 57
+  vars: 65
+  vars: 67
+  vars: 75
+  vars: 76
+  vars: 77
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 67
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 57
+  vars: 66
+  vars: 68
+  vars: 77
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 168
+linear {
+  vars: 68
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -169
+linear {
+  vars: 68
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 168
+linear {
+  vars: 57
+  vars: 58
+  vars: 59
+  vars: 67
+  vars: 69
+  vars: 77
+  vars: 78
+  vars: 79
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 69
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 169
+linear {
+  vars: 69
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -170
+linear {
+  vars: 69
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 169
+linear {
+  vars: 58
+  vars: 59
+  vars: 68
+  vars: 78
+  vars: 79
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 70
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 60
+  vars: 71
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 171
+linear {
+  vars: 71
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -172
+linear {
+  vars: 71
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 171
+linear {
+  vars: 60
+  vars: 61
+  vars: 62
+  vars: 70
+  vars: 72
+  vars: 80
+  vars: 81
+  vars: 82
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 172
+linear {
+  vars: 72
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -173
+linear {
+  vars: 72
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 172
+linear {
+  vars: 61
+  vars: 62
+  vars: 63
+  vars: 71
+  vars: 73
+  vars: 81
+  vars: 82
+  vars: 83
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 73
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 63
+  vars: 72
+  vars: 74
+  vars: 83
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 174
+linear {
+  vars: 74
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -175
+linear {
+  vars: 74
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 174
+linear {
+  vars: 63
+  vars: 64
+  vars: 65
+  vars: 73
+  vars: 75
+  vars: 83
+  vars: 84
+  vars: 85
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 75
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 65
+  vars: 74
+  vars: 76
+  vars: 85
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 176
+linear {
+  vars: 76
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -177
+linear {
+  vars: 76
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 176
+linear {
+  vars: 65
+  vars: 66
+  vars: 67
+  vars: 75
+  vars: 77
+  vars: 85
+  vars: 86
+  vars: 87
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 177
+linear {
+  vars: 77
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -178
+linear {
+  vars: 77
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 177
+linear {
+  vars: 66
+  vars: 67
+  vars: 68
+  vars: 76
+  vars: 78
+  vars: 86
+  vars: 87
+  vars: 88
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 78
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 178
+linear {
+  vars: 78
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -179
+linear {
+  vars: 78
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 178
+linear {
+  vars: 67
+  vars: 68
+  vars: 69
+  vars: 77
+  vars: 79
+  vars: 87
+  vars: 88
+  vars: 89
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 79
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 179
+linear {
+  vars: 79
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -180
+linear {
+  vars: 79
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 179
+linear {
+  vars: 68
+  vars: 69
+  vars: 78
+  vars: 88
+  vars: 89
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 80
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 81
+  vars: 90
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 181
+linear {
+  vars: 81
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -182
+linear {
+  vars: 81
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 181
+linear {
+  vars: 70
+  vars: 71
+  vars: 72
+  vars: 80
+  vars: 82
+  vars: 90
+  vars: 91
+  vars: 92
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 82
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 72
+  vars: 81
+  vars: 83
+  vars: 92
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 183
+linear {
+  vars: 83
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -184
+linear {
+  vars: 83
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 183
+linear {
+  vars: 72
+  vars: 73
+  vars: 74
+  vars: 82
+  vars: 84
+  vars: 92
+  vars: 93
+  vars: 94
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 84
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 184
+linear {
+  vars: 84
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -185
+linear {
+  vars: 84
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 184
+linear {
+  vars: 73
+  vars: 74
+  vars: 75
+  vars: 83
+  vars: 85
+  vars: 93
+  vars: 94
+  vars: 95
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 185
+linear {
+  vars: 85
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -186
+linear {
+  vars: 85
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 185
+linear {
+  vars: 74
+  vars: 75
+  vars: 76
+  vars: 84
+  vars: 86
+  vars: 94
+  vars: 95
+  vars: 96
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 186
+linear {
+  vars: 86
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -187
+linear {
+  vars: 86
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 186
+linear {
+  vars: 75
+  vars: 76
+  vars: 77
+  vars: 85
+  vars: 87
+  vars: 95
+  vars: 96
+  vars: 97
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 87
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 77
+  vars: 86
+  vars: 88
+  vars: 97
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 188
+linear {
+  vars: 88
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -189
+linear {
+  vars: 88
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 188
+linear {
+  vars: 77
+  vars: 78
+  vars: 79
+  vars: 87
+  vars: 89
+  vars: 97
+  vars: 98
+  vars: 99
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 189
+linear {
+  vars: 89
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -190
+linear {
+  vars: 89
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 189
+linear {
+  vars: 78
+  vars: 79
+  vars: 88
+  vars: 98
+  vars: 99
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 190
+linear {
+  vars: 90
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -191
+linear {
+  vars: 90
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 190
+linear {
+  vars: 80
+  vars: 81
+  vars: 91
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 91
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 191
+linear {
+  vars: 91
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -192
+linear {
+  vars: 91
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 191
+linear {
+  vars: 80
+  vars: 81
+  vars: 82
+  vars: 90
+  vars: 92
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 192
+linear {
+  vars: 92
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -193
+linear {
+  vars: 92
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 192
+linear {
+  vars: 81
+  vars: 82
+  vars: 83
+  vars: 91
+  vars: 93
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 93
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 193
+linear {
+  vars: 93
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -194
+linear {
+  vars: 93
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 193
+linear {
+  vars: 82
+  vars: 83
+  vars: 84
+  vars: 92
+  vars: 94
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 194
+linear {
+  vars: 94
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -195
+linear {
+  vars: 94
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 194
+linear {
+  vars: 83
+  vars: 84
+  vars: 85
+  vars: 93
+  vars: 95
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 95
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 85
+  vars: 94
+  vars: 96
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}
+enforcement_literal: 196
+linear {
+  vars: 96
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -197
+linear {
+  vars: 96
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 196
+linear {
+  vars: 85
+  vars: 86
+  vars: 87
+  vars: 95
+  vars: 97
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 197
+linear {
+  vars: 97
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -198
+linear {
+  vars: 97
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 197
+linear {
+  vars: 86
+  vars: 87
+  vars: 88
+  vars: 96
+  vars: 98
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+enforcement_literal: 198
+linear {
+  vars: 98
+  coeffs: 1
+  domain: 1
+  domain: 1
+}
+enforcement_literal: -199
+linear {
+  vars: 98
+  coeffs: 1
+  domain: -9223372036854775808
+  domain: 0
+  domain: 2
+  domain: 9223372036854775807
+}
+enforcement_literal: 198
+linear {
+  vars: 87
+  vars: 88
+  vars: 89
+  vars: 97
+  vars: 99
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 99
+  coeffs: 1
+  domain: 0
+  domain: 0
+}
+linear {
+  vars: 89
+  vars: 98
+  coeffs: 1
+  coeffs: 1
+  domain: 1
+  domain: 9223372036854775807
+}

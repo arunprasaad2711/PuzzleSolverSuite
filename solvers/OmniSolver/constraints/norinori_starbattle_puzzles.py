@@ -132,4 +132,4 @@ def StarBattleAdjacencyConstraint(self):
             # are stars
             self.Model.Add(sum(Neighbours) == 0).OnlyEnforceIf(IsStar)
             
-    print("Star Battle Star Cell Constraint Added")
+    print("Star Battle Star Cell Constraint Added")   

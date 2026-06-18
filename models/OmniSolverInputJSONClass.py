@@ -215,3 +215,9 @@ class Omni(BaseModel):
     MineSweeper: bool = False
     MineSweeperNeighbourMode: Literal["King", "Knight", "Orthogonal", "Diagonal"] = "King"
     MineSweeperGridMap: list[list[int]] = Field(default_factory=list)
+
+    # Tents Puzzle Constraints
+    TentsPuzzle: bool = False
+    TentsAlongRows: list[int] = Field(default_factory=list)
+    TentsAlongCols: list[int] = Field(default_factory=list)
+    TentsTreeMap: list[list[int]] = Field(default_factory=list)
