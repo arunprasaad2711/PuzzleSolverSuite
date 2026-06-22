@@ -24,11 +24,11 @@ def LineDifferences(self, differences, difference_conditions, lines):
         
         diff_string = ""
         if diff_con == 1:
-            diff_string = "greater than" 
+            diff_string = "greater than or equal to" 
         elif diff_con == -1:
-            diff_string = "less than"
+            diff_string = "less than or equal to"
         elif diff_con == 0:
-            diff_string = "equal to"
+            diff_string = "exactly equal to"
         else:
             diff_string = "ERROR!"
         

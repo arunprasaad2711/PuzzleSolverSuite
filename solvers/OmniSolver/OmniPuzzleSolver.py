@@ -27,6 +27,8 @@ class OmniPuzzleSolver:
         self.InputMatrix = np.array(InputMatrix, dtype=np.int32)
         
         self.Rows, self.Cols = self.InputMatrix.shape
+
+        self.Order = np.max([self.Rows, self.Cols])
                 
         # Solution Matrix
         self.OutputMatrix = np.zeros_like(self.InputMatrix, dtype=np.int32)

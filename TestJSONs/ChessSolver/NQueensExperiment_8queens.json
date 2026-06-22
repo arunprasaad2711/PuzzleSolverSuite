@@ -1,0 +1,19 @@
+{
+    "Experiment": "NQueens N=8",
+    "Objective": "Find all N=8 NQueens Configurations",
+    "Result": "Found 92 solutions",
+    "PuzzleTestStatus": "Verified",
+
+    "Matrix": [[0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0]],
+    "LowerBound": 0,
+    "UpperBound": 1,
+    "NQueens": true,
+    "SingleSolution": false
+}

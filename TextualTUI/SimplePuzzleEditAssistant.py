@@ -15,8 +15,8 @@ class SudokuGrid(Static):
     CELL_W = 7
 
     # Core grid size
-    NRows = 18
-    NCols = 18
+    NRows = 9
+    NCols = 9
 
     # For Sudoku grid
     # For a 4x4 grid: box_rows=2, box_cols=2
@@ -28,7 +28,7 @@ class SudokuGrid(Static):
     box_rows = 3
     box_cols = 3
 
-    IsSudoku = False
+    IsSudoku = True
 
     # Padding around the core grid
     # Exported coordinates for padding cells will be negative (top/left)

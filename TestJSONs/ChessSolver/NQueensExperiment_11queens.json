@@ -1,0 +1,22 @@
+{
+    "Experiment": "NQueens N=1",
+    "Objective": "Find all N=11 NQueens Configurations",
+    "Result": "Found 2680 solutions in 3924 seconds",
+    "PuzzleTestStatus": "Verified",
+
+    "Matrix": [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+    "LowerBound": 0,
+    "UpperBound": 1,
+    "NQueens": true,
+    "SingleSolution": false
+}

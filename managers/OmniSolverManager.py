@@ -198,6 +198,15 @@ def OmniSolverManager(puzzle: Omni):
     if puzzle.TentsPuzzle:
         Solver.ClassicTentsConstraints(puzzle.TentsTreeMap, puzzle.TentsAlongRows,
                                        puzzle.TentsAlongCols)
+    
+    if puzzle.NBishops:
+        Solver.NBishopsConstraint(puzzle.NBishopsRowConstraint)
+    
+    if puzzle.NRooks:
+        Solver.NRooksConstraint()
+    
+    if puzzle.NQueens:
+        Solver.NQueensConstraint()
 
     if puzzle.PrintConstraints:
         with open("output.txt", "w") as f:

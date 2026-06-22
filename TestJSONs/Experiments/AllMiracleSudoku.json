@@ -1,0 +1,21 @@
+{
+    "Experiment": "The Miracle",
+    "Objective": "Find all Sudokus meeting the Miracle Sudoku Conditions",
+    "Result": "Found 72 solutions",
+    "Matrix": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ],
+    "Sudoku": true,
+    "AntiKnight": true,
+    "AntiKing": true,
+    "OrthogonalNonConsec": true,
+    "PuzzleTestStatus":"Verified"
+}

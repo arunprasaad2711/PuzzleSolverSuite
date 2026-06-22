@@ -15,6 +15,12 @@ class Omni(BaseModel):
     UpperBound: int = 9
     ZeroMaskingDigit: int = -1
 
+    # Defaults for Chess Solver
+    NRooks: bool = False
+    NBishops: bool = False
+    NBishopsRowConstraint: bool = False
+    NQueens: bool = False
+
     # Diagonal Condition
     TLBR_Diagonal: bool = False
     TRBL_Diagonal: bool = False

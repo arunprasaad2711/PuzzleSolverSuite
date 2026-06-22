@@ -1,0 +1,32 @@
+{
+    "Matrix":[[0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0, 0, 0, 0]],
+    
+    "Experiment": "Dotless Kropki",
+    "Objective": "Find all Sudokus that don't have adjacent cells not consecutive and not in ratio 1:2",
+    "Result": "Found more than 7500 solutions, but it takes a lot of time. So, halted. But with 2 diagonals active, it finished at 598 solutions",
+    "PuzzleTestStatus":"Verified",
+
+    "NoOfSearchers": 4,
+
+    "Sudoku": true,
+    "TLBR_Diagonal": true,
+    "TRBL_Diagonal": true,
+
+    "MultiAntiDifferenceCondition": true,
+    "MultiAntiDifference": [1],
+    "MultiAntiDifferencePairsList": [[]],
+    
+    "MultiAntiRatiosCondition": true,
+    "MultiAntiRatiosNumerators": [1],
+    "MultiAntiRatiosDenominators": [2],
+    "MultiAntiRatiosPairsList": [[]]
+
+}
