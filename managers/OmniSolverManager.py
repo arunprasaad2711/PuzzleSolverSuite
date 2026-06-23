@@ -207,6 +207,13 @@ def OmniSolverManager(puzzle: Omni):
     
     if puzzle.NQueens:
         Solver.NQueensConstraint()
+    
+    if puzzle.HitoriPuzzle:
+        Solver.ClassicHitoriConstraint(puzzle.HitoriGridMap)
+    
+    if puzzle.CreekPuzzle:
+        Solver.ClassicCreekConstraint(puzzle.CreekPuzzleGroups,
+                                      puzzle.CreekPuzzleGroupValues)
 
     if puzzle.PrintConstraints:
         with open("output.txt", "w") as f:
@@ -218,6 +225,5 @@ def OmniSolverManager(puzzle: Omni):
         Solutions = Solver.Solve()
     else:
         Solutions = Solver.MultiSolutionSolve()
-    
     
     return Solutions

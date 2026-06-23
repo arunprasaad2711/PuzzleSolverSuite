@@ -10,13 +10,13 @@ def print_matrix(matrix):
     print()
 
 url = "http://127.0.0.1:5500/solve"
-# PAYLOADS_DIR = "./TestJSONs/OmniSolver"
+PAYLOADS_DIR = "./TestJSONs/OmniSolver"
 # PAYLOADS_DIR = "./TestJSONs/Experiments"
-PAYLOADS_DIR = "./TestJSONs/ChessSolver"
+# PAYLOADS_DIR = "./TestJSONs/ChessSolver"
 # PAYLOADS_DIR = "./TestJSONs/PersonalSudokus"
 
-# FName = "AntiRatioAntiConsecutive.json"
-FName = "NQueensExperiment_11queens.json"
+FName = "Creek_StevenScott.json"
+# FName = "Hitori_PuzzleHitori.json"
 # FName = "RenbanLinesAsSudoku_MiracleSudoku.json"
 # FName = "Tents_HorvathZoltan.json"
 # FName = "Tents_StevenScott.json"

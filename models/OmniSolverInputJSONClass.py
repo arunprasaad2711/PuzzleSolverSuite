@@ -193,7 +193,6 @@ class Omni(BaseModel):
     RegionSumLinesEqualSegmentsIDs: list[list[int]] = Field(default_factory=list)
     RegionSumLinesNonRepeatValues: list[bool] = Field(default_factory=list)
 
-
     # Restricted Cells Condition. Some cells can have only restricted values
     RestrictedCellsCondition: bool = False
     RestrictedCellsMap: list[list[int]] = Field(default_factory=list)
@@ -227,3 +226,12 @@ class Omni(BaseModel):
     TentsAlongRows: list[int] = Field(default_factory=list)
     TentsAlongCols: list[int] = Field(default_factory=list)
     TentsTreeMap: list[list[int]] = Field(default_factory=list)
+
+    # Hitori Puzzle Constraints
+    HitoriPuzzle: bool = False
+    HitoriGridMap: list[list[int]] = Field(default_factory=list)
+
+    # Creek Puzzle Constraints
+    CreekPuzzle: bool = False
+    CreekPuzzleGroups: list[list[list[int]]] = Field(default_factory=list)
+    CreekPuzzleGroupValues: list[int] = Field(default_factory=list)
