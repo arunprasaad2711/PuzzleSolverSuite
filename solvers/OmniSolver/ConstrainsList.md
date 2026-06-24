@@ -62,6 +62,8 @@ None
 58. Nori-Nori (grid count + nori-nori adjacency)
 59. Mine Sweeper (King/Knight/Orthogonal/Diagonal Mode)
 60. Tents
+61. Hitori
+62. Creek
 
 ## Yet To Migrate
 1. Two-digit Arrow Sum (Need to check if this is working)
@@ -148,25 +150,26 @@ None
 8. Slitherlink (doubtful)
 9. Fillomino (doubtful)
 10. Mochikoro
-11. Hitori
-12. Kakuro
-13. Nurikabe
-14. Nonogram
-15. Starstruck
-16. Aqre
-17. Stich puzzle
-18. Heyawake
-19. Easy as ABC
-20. Balanced Loop
-21. Tapa
-22. LITS
-23. Yajalin
+11. Kakuro
+12. Nurikabe
+13. Nonogram
+14. Aqre
+15. Stitch puzzle
+16. Heyawake
+17. Easy as ABC
+18. Balanced Loop
+19. Tapa
+20. LITS
+21. Yajilin
 
 ## Blogs/Websites
 1. [Puzzle Parasite](https://puzzleparasite.blogspot.com/) - by Bram de Laat
    * Bram's website is a massive collection of puzzles - with some of them appearing in World Puzzle Championships.
 2. [UK Puzzles](https://ukpuzzles.org/)
    * Website for sudoku and other puzzles world-level competitions in UK.
+3. [Eric Fox's](https://ericfox53.blogspot.com/p/info.html) website
+   * He is the creator of [f-puzzles.com](https://f-puzzles.com/). In his blogs, there are more than 500 puzzles.
+   * Some of these puzzles are his own creations like Aqre. Some of them are existing puzzles with him making one in accordance to the rules.
 
 ## YouTube Channels
 1. [Cracking The Cryptic](https://www.youtube.com/@CrackingTheCryptic)
@@ -184,9 +187,18 @@ None
 
 ## Important GitHub Repos
 1. [Puzzlekit](https://github.com/SmilingWayne/puzzlekit/tree/main) by Smiling Wayne
-Literally has 100+ solvers for hundreds of puzzles made using OR-Tools. It is made as a library in pypi.
+Literally has 100+ individual solvers made using OR-Tools for hundreds of puzzles. It is made as a library in pypi.
 Prime source for checking constraints and learning incase some puzzle framing is hard.
 
 2. [SudokuSolver](https://github.com/dclamage/SudokuSolver) by David Clamage, aka Rangsk
 This is a C# solver made probably from first principles. It directly connects to F-puzzles using scripts
 that are run through Tampermonkey. Worth looking into the different types the solver handles.
+
+3. [puzzle_solver](https://github.com/Ar-Kareem/puzzle_solver) by Ar-Kareem.
+This is also like Smiling Wayne's puzzle solver. This also uses OR-Tools. It is made as a library in pypi.
+This source also solved 90+ classical logic puzzles. Worth looking into for finding puzzle types and
+puzzle constraints.
+
+4. [Puzzle-Solver](https://github.com/newtomsoft/Puzzles-Solver) by newtomsoft.
+A Browser extension and node-based solver that solves many kinds of puzzles with a visual representation.
+Worth looking into for UI inspirations.

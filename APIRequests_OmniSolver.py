@@ -15,7 +15,7 @@ PAYLOADS_DIR = "./TestJSONs/OmniSolver"
 # PAYLOADS_DIR = "./TestJSONs/ChessSolver"
 # PAYLOADS_DIR = "./TestJSONs/PersonalSudokus"
 
-FName = "Creek_StevenScott.json"
+FName = "Creek_Gridpuzzle.json"
 # FName = "Hitori_PuzzleHitori.json"
 # FName = "RenbanLinesAsSudoku_MiracleSudoku.json"
 # FName = "Tents_HorvathZoltan.json"

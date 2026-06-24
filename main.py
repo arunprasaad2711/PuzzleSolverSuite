@@ -31,5 +31,4 @@ async def health_check():
     return {"message": "Puzzle Solver Suite API is running!"}
 
 app.include_router(omni.router)
-app.include_router(chess.router)
 
